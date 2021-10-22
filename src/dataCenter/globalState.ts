@@ -1,7 +1,7 @@
 import { computed } from 'vue';
 
 const url = window.location.href;
-const routerList = ['HelloWorld'];
+const routerList = ['HelloWorld', 'Template'];
 
 export const curPage = computed(() => {
   let res = 'HelloWorld';
@@ -10,6 +10,8 @@ export const curPage = computed(() => {
       res = item;
     }
   }
+
+  console.log('Current page is: ', res);
 
   return res;
 });
