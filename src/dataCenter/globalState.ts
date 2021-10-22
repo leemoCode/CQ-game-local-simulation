@@ -1,9 +1,9 @@
-import { ref } from 'vue';
+import { computed } from 'vue';
 
 const url = window.location.href;
 const routerList = ['HelloWorld'];
 
-const setCurPage = () => {
+export const curPage = computed(() => {
   let res = 'HelloWorld';
   for (const item of routerList) {
     if (url.indexOf(item) !== -1) {
@@ -12,6 +12,4 @@ const setCurPage = () => {
   }
 
   return res;
-};
-
-export const curPage = ref(setCurPage());
+});
