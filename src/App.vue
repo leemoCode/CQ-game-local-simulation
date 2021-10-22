@@ -3,7 +3,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent } from 'vue';
+import { curPage } from './dataCenter/globalState';
 import HelloWorld from './components/HelloWorld.vue';
 
 export default defineComponent({
@@ -12,8 +13,6 @@ export default defineComponent({
     HelloWorld,
   },
   setup() {
-    const curPage = ref('HelloWorld');
-
     return {
       curPage,
     };
