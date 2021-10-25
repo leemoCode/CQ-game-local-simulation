@@ -1,11 +1,11 @@
 import { computed } from 'vue';
 
 const url = window.location.href;
-const routerList = ['HelloWorld', 'Template'];
+const componentList = ['HelloWorld', 'Template'];
 
 export const curPage = computed(() => {
   let res = 'HelloWorld';
-  for (const item of routerList) {
+  for (const item of componentList) {
     if (url.indexOf(item) !== -1) {
       res = item;
     }
