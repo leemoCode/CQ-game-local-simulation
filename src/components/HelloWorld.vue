@@ -8,6 +8,7 @@
       >this is a test page, project url</a
     >
   </div>
+  <el-button>element-ui</el-button>
 </template>
 
 <script lang="ts">
