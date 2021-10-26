@@ -1,7 +1,7 @@
 import { computed } from 'vue';
 
 const url = window.location.href;
-const componentList = ['HelloWorld', 'Template'];
+const componentList = ['HelloWorld', 'Template', 'FlexBox'];
 
 export const curPage = computed(() => {
   let res = 'HelloWorld';
