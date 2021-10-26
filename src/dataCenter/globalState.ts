@@ -1,12 +1,12 @@
 import { computed } from 'vue';
 
-const url = window.location.href;
+// need import the component name pushed just now in App.vue at the same time
 const componentList = ['HelloWorld', 'Template', 'FlexBox'];
 
 export const curPage = computed(() => {
   let res = 'HelloWorld';
   for (const item of componentList) {
-    if (url.indexOf(item) !== -1) {
+    if (window.location.href.indexOf(item) !== -1) {
       res = item;
     }
   }
