@@ -27,3 +27,10 @@ npm : 无法将“npm”项识别为 cmdlet、函数、脚本文件或可运行�
 
 ##  查询各种方法支持的浏览器版本
 https://caniuse.com/
+
+
+## chrome webview 调试
+chrome://inspect/#devices
+
+## html color
+https://htmlcolorcodes.com/
