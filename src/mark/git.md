@@ -41,7 +41,8 @@ git remote update -p
 全局安装rimraf：
 npm install rimraf -g
 到你的项目根目录下（即有node_modules的目录），执行命令：
-rimraf node_modules 快速删除node_modules文件夹
+rimraf node_modules
+快速删除node_modules文件夹
 
 ## 清除缓存
 npm cache clean --force
