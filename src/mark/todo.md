@@ -54,16 +54,18 @@ topic-common-view 代码回归
 biz-platform 代码回归
 browser_cms 代码回归
 
-isFollow -> iF
+<!-- isFollow -> iF
 fromFollow -> rF
 followId -> fId
 curTopicId -> cTId
 topicId -> tId
-新: bId
+docTitle -> dTt
+新: bId -->
 
-
+对跟帖的评论进行回复 缺少followId和topicTitle
 
 公告功能做完后 要合入1.3
+
 bizplatform 正式环境配置
 
 <!-- buildoption name  字段    comment-common-view  fileKey -->
