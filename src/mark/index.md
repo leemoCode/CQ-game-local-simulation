@@ -34,3 +34,7 @@ chrome://inspect/#devices
 
 ## html color
 https://htmlcolorcodes.com/
+
+
+### messag center 手动刷新
+https://cms-test-cpc.wanyol.com/message_center/pages/reply?refresh=true&f=json
