@@ -1,6 +1,51 @@
-# 1028
 
-# 话题代码 review
+
+11-2
+
+### 评论新增二级页
+功能点：
+<!-- 向下离开评论区后 要隐藏发布器 -->
+二级页面评论同步至一级页面
+空页面样式  加载失败 加载中 已经做完  有遗留
+
+
+
+### 话题相关
+comment-common-view 代码回归
+topic-common-view 代码回归
+biz-platform 代码回归
+browser_cms 代码回归
+
+根据topicId拉列表
+bizplatform 正式环境配置
+
+
+### 回收站
+
+<!-- 发新的url规则 -->
+
+<!-- bId有就带 -->
+
+<!-- 公告功能做完后 要合入1.3 -->
+
+
+<!-- buildoption name  字段    comment-common-view  fileKey -->
+
+<!-- isFollow -> iF
+fromFollow -> rF
+followId -> fId
+curTopicId -> cTId
+topicId -> tId
+docTitle -> dTt
+新: bId -->
+
+<!-- 对跟帖的评论进行回复 缺少followId和topicTitle -->
+
+
+
+<!-- ### topicCard 加限制 6个 -->
+
+<!-- ### 详情页加载更多时 闪白 -->
 
 
 <!-- # 消息 开发 -->
@@ -27,45 +72,3 @@
 <!-- # 获取文章评论失败 二级页 -->
 
 <!-- # 夜间模式 > 丢失 -->
-
-
-11-1
-
-<!-- ### topicCard 加限制 6个 -->
-
-<!-- ### 详情页加载更多时 闪白 -->
-
-
-
-11-2
-
-### 评论新增二级页
-功能点：
-<!-- 向下离开评论区后 要隐藏发布器 -->
-二级页面评论同步至一级页面
-空页面样式  加载失败 加载中 已经做完  有遗留
-
-
-
-
-### 话题相关
-
-topic-common-view 代码回归
-biz-platform 代码回归
-browser_cms 代码回归
-
-<!-- isFollow -> iF
-fromFollow -> rF
-followId -> fId
-curTopicId -> cTId
-topicId -> tId
-docTitle -> dTt
-新: bId -->
-
-对跟帖的评论进行回复 缺少followId和topicTitle
-
-公告功能做完后 要合入1.3
-
-bizplatform 正式环境配置
-
-<!-- buildoption name  字段    comment-common-view  fileKey -->
