@@ -1,7 +1,5 @@
 
 
-11-2
-
 ### 评论新增二级页
 功能点：
 
@@ -9,11 +7,15 @@
 
 文章不锚评 评论区锚评
 
+分离两个分支
+
 ### 话题相关
 
 
-
 comment-common-view  topicUpdate分支与dev/1.3合并
+
+
+### 其他
 
 commentsdk demo工程 模板
 
@@ -22,14 +24,15 @@ h5 加xlog日志
 https://doc.myoas.com/pages/viewpage.action?pageId=94512023
 
 
-公告需求发拼接规则
-
 browser_cms 走前端发布流程
 https://doc.myoas.com/pages/viewpage.action?pageId=525692137 用模板创建文档 抄写
 
 
 
 ### 回收站
+
+<!-- 公告需求发拼接规则 -->
+
 
 <!-- bizplatform 正式环境配置 -->
 
