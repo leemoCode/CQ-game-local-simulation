@@ -3,15 +3,27 @@
 ### 评论新增二级页
 功能点：
 
+展开文章 底bar状态异常
+
 二级页面评论同步至一级页面
 
 文章不锚评 评论区锚评
 
-分离两个分支
 
-### 话题相关
+### 1108
 
 
+话题正式环境 切换tab保持状态问题
+
+话题：
+isFromTopic能否干掉
+话题线上card域名和评论不同
+ts检查 && 提交时进行代码检查
+getSubReplyList 接口偶先失败
+post followUp 统一起来
+
+
+### 评论新增公告栏
 ### 其他
 
 getSource 合并 utils && api && contactNative
@@ -23,13 +35,18 @@ commentsdk demo工程 模板
 h5 加xlog日志
 https://doc.myoas.com/pages/viewpage.action?pageId=94512023
 
-
-browser_cms 走前端发布流程
-https://doc.myoas.com/pages/viewpage.action?pageId=525692137 用模板创建文档 抄写
-
-
+话题发布CF链接
+https://doc.myoas.com/pages/viewpage.action?pageId=528717645
 
 ### 回收站
+<!-- 消息发版 -->
+
+<!-- browser_cms 走前端发布流程
+https://doc.myoas.com/pages/viewpage.action?pageId=525692137 用模板创建文档 抄写 -->
+
+<!-- 浏览器两个bug -->
+
+<!-- 分离两个分支 -->
 
 <!-- comment-common-view  topicUpdate分支与dev/1.3合并 -->
 
