@@ -17,9 +17,10 @@
 
 话题：
 isFromTopic能否干掉
+store 状态的维护 大改
+
 话题线上card域名和评论不同
 ts检查 && 提交时进行代码检查
-getSubReplyList 接口偶先失败
 post followUp 统一起来
 
 
@@ -39,6 +40,8 @@ https://doc.myoas.com/pages/viewpage.action?pageId=94512023
 https://doc.myoas.com/pages/viewpage.action?pageId=528717645
 
 ### 回收站
+<!-- getSubReplyList 接口偶先失败 -->
+
 <!-- 消息发版 -->
 
 <!-- browser_cms 走前端发布流程
