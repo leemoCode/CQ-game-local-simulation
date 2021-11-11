@@ -1,21 +1,14 @@
 
 
 ### 评论新增二级页
-功能点：
 
-展开文章 底bar状态异常
+展开文章 底bar状态异常收起
 
-二级页面评论同步至一级页面
-
-文章不锚评 评论区锚评
+h5 加xlog日志
+https://doc.myoas.com/pages/viewpage.action?pageId=94512023
 
 
-### 1108
-
-
-话题正式环境 切换tab保持状态问题
-
-话题：
+### 话题遗留优化
 isFromTopic能否干掉
 store 状态的维护 大改
 
@@ -33,13 +26,31 @@ getSource 合并 utils && api && contactNative
 commentsdk demo工程 模板
 
 
-h5 加xlog日志
-https://doc.myoas.com/pages/viewpage.action?pageId=94512023
-
-话题发布CF链接
-https://doc.myoas.com/pages/viewpage.action?pageId=528717645
-
 ### 回收站
+
+
+<!-- 话题发布CF链接
+https://doc.myoas.com/pages/viewpage.action?pageId=528717645 -->
+
+<!-- 话题正式环境 切换tab保持状态问题 -->
+
+
+
+<!-- 二级页面评论同步至一级页面 -->
+
+<!-- 文章不锚评 评论区锚评 -->
+
+<!-- 暗色模式闪白 -->
+
+<!-- 缓存 查询审核状态 source丢失 -->
+<!-- 缓存 回复缓存不生效 -->
+<!-- 取消点赞取消不了 -->
+<!-- 回复内容样式有问题 -->
+
+<!-- 点赞消息进去显示没点赞 -->
+
+<!-- 文章页点话题入口没反应 -->
+
 <!-- getSubReplyList 接口偶先失败 -->
 
 <!-- 消息发版 -->
