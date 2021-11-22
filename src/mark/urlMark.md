@@ -11,3 +11,10 @@ https://doc.myoas.com/pages/viewpage.action?pageId=521547688
 
 ### 公告接口文档
 http://test-console.cloud.oppoer.me/yapi/project/1041/interface/api/75578?uniqCodeKey=all&paasZoneCode=all&azCode=all&k8sClusterCode=all&cloudLayout=serviceTree&psaId=35725
+
+
+### 新评论接口
+https://odocs.myoas.com/docs/J6V36hPyJkXtyTCq
+
+### 老接口
+https://odocs.myoas.com/docs/xqWKJ9JW6pKWGHQP/ 《评论接口参数》
