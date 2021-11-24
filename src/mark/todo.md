@@ -2,23 +2,11 @@
 
 1122
 
-isfromtopic isrfrommessage  和现有sdk耦合
+isfromtopic isfrommessage  和现有sdk耦合
 
 话题列表图片 服务端传错链接的情况 屏蔽掉
 
 话题 什么什么相对路径问题
-
-跟帖缺少点赞按钮
-
-<!-- 夜间模式话题tag颜色 -->
-
-<!-- 本话题下tag点击不跳转 -->
-
-内容详情页评论功能
-
-切换tab 加jsapi 作埋点用
-
-线上 feedsession穿了30009 timeout
 
 
 ### 话题遗留优化
@@ -30,16 +18,44 @@ ts检查 && 提交时进行代码检查
 post followUp 统一起来
 
 
-### 评论新增公告栏
 ### 其他
 
-getSource 合并 utils && api && contactNative
+
+锁屏升级评论1.3
+
+预览功能按钮样式变化
+
 
 
 commentsdk demo工程 模板
 
 
 ### 回收站
+<!-- 首刷显示正在加载回复 -->
+
+<!-- source datasource  修正 -->
+
+<!-- 网易文章是否还需用resourceId作docId -->
+
+
+<!-- getSource 合并 utils && api && contactNative -->
+
+<!-- 内容详情页评论功能 -->
+
+<!-- 切换tab 加jsapi 作埋点用 -->
+
+<!-- 发评后数目没有同步到话题 -->
+
+<!-- 点赞同步 -->
+
+
+<!-- 跟帖缺少点赞按钮 -->
+
+<!-- 线上 feedsession穿了30009 timeout -->
+
+<!-- 夜间模式话题tag颜色 -->
+
+<!-- 本话题下tag点击不跳转 -->
 
 <!-- 公告 间距 -->
 
