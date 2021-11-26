@@ -14,7 +14,7 @@ const solution = (string1, string2) => {
   return arr1.join('') === arr2.join('');
 };
 
-// console.log(solution('asoij', 'oasji'));
+console.log(solution('asoij', 'oasji'));
 
 // 计数累加法
 const solution2 = (s1, s2) => {
