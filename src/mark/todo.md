@@ -2,13 +2,19 @@
 
 1122
 
-isfromtopic isfrommessage  和现有sdk耦合
-
 话题列表图片 服务端传错链接的情况 屏蔽掉
 
-话题 什么什么相对路径问题
+话题埋点修改
 
-禁评公告样式
+magazine.ts getConfigValue代码改动
+
+下拉刷新问题
+
+点赞埋点
+
+
+isfromtopic isfrommessage  和现有sdk耦合
+话题 什么什么相对路径问题
 
 
 ### 话题遗留优化
@@ -33,6 +39,12 @@ commentsdk demo工程 模板
 
 
 ### 回收站
+<!-- 哥伦布拆解 -->
+
+<!-- query频繁查询公告 -->
+
+<!-- 禁评公告样式 -->
+
 <!-- 首刷显示正在加载回复 -->
 
 <!-- source datasource  修正 -->
