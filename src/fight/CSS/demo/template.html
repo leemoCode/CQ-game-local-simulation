@@ -6,8 +6,8 @@
     <title>Template</title>
     <style>
       .outer {
-        width: 400px;
-        height: 600px;
+        width: 200px;
+        height: 300px;
         background: red;
       }
 
@@ -16,12 +16,33 @@
         padding-bottom: 50%;
         background: blue;
       }
+
+      .circle {
+        background: red;
+
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+
+      .tuo-circle {
+        background: blue;
+
+        width: 200px;
+        height: 100px;
+        border-radius: 50% / 50%;
+      }
     </style>
   </head>
   <body>
     <div class="outer">
       <div class="inner"></div>
     </div>
+
+    <!-- CSS画圆 -->
+    <div class="circle"></div>
+    <!-- 椭圆 -->
+    <div class="tuo-circle"></div>
   </body>
 </html>
 
