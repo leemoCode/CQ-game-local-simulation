@@ -1,4 +1,10 @@
 
+1130
+
+验收表态功能
+
+serverSource问题
+
 
 1122
 
@@ -9,8 +15,6 @@
 magazine.ts getConfigValue代码改动
 
 下拉刷新问题
-
-点赞埋点
 
 
 isfromtopic isfrommessage  和现有sdk耦合
@@ -39,6 +43,12 @@ commentsdk demo工程 模板
 
 
 ### 回收站
+<!-- styleType 问题 1.5- > 1.4 -->
+
+<!-- 增加三方id -->
+
+<!-- 点赞埋点 -->
+
 <!-- 哥伦布拆解 -->
 
 <!-- query频繁查询公告 -->
