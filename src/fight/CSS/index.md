@@ -24,6 +24,52 @@
   详解链接：
   https://juejin.cn/post/6844903505983963143
 
+# CSS选择器
+  1. id选择器: #myid
+  2. 类选择器: .class-name
+  3. 标签选择器: div span p h1
+  4. 后代选择器（包含选择器）: h1 p
+  5. 子选择器: ul > li
+  6. 兄弟选择器: h1 ~ p
+  7. 相邻兄弟选择器: li + li
+  8. 属性选择器 a[rel="external"]
+  9. ...未完
+
+
+  ## 兄弟选择器：
+  查找某一个指定元素的后面的 所有的 兄弟结点
+    <p>1</p>
+    <h1>2</h1>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+  使用 h1 ~ p { color: red } 后，3、4、5均变为红色
+
+  ## 相邻兄弟选择器
+    选择紧跟在h1元素后的段落p，h1和p拥有共同的父元素
+
+    <div>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+      <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ol>
+    </div>
+
+    使用 li + li { font-weight: bold; }最终效果：
+    列表中的所有List item 2和3变为粗体，List item 1不受影响
+
+
+  ## 后代选择器 和 子选择器的区别
+    子选择器（child selector）仅是指它的直接后代，或者你可以理解为作用于子元素的第一代后代。
+    后代选择器是作用于所有子后代元素。后代选择器通过空格来进行选择，而子选择器是通过“>”进行选择。
+    总结： > 作用于元素的第一代后代 空格作用于元素的所有后代。
+
 
 
 
