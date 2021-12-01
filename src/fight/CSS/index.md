@@ -2,19 +2,29 @@
   什么是盒模型？
   在对一个文档进行布局的时候， 浏览器的渲染引擎会根据标准之一的CSS基础盒模型，将所有元素渲染为一个个的矩形盒子
 
-  一个盒模型由四部分组成： 
+  一个盒模型由四部分组成：
   content border padding margin
 
-  种类：
-  1. border-box:
-  width = content + padding + margin
-  2. content-box: (默认为此模型)
+  一共有两种盒模型：
+  1. border-box: （IE盒模型）
+  width = content + border + padding
+  2. content-box: （W3C标准盒模型）
   width = content
 
   设置盒模型：
   box-sizing: border-box | content-box;
+  在IE8+浏览器中使用哪个盒模型可以通过box-sizing进行控制，默认为content-box，即为标准盒模型。
+
+  在IE6,7,8等低版本浏览器中
+  如果DOCTYPE类型缺失浏览器会将盒子模型解释为IE盒子模型(border-box)
+  如果声明了DOCTYPE类型，所有的浏览器都会把盒模型解释为标准盒模型(content-box)
 
   使用IE盒模型时，确定宽高后放大padding/border的值会压缩content的大小
+
+  详解链接：
+  https://juejin.cn/post/6844903505983963143
+
+
 
 
 # CSS权重&优先级
@@ -30,7 +40,7 @@
 
 
   !important可以提升样式优先级，但不建议使用。
-  如果!important被用于一个简写的样式属性，那么这条简写的样式属性所代表的子属性都会被应用上!important。 
+  如果!important被用于一个简写的样式属性，那么这条简写的样式属性所代表的子属性都会被应用上!important。
   例如：background: blue !important; 则background-size 也会带上!important
 
   内联样式和外联样式的权重相同，优先级与加载顺序有关，后加载的样式覆盖先加载的。
@@ -98,6 +108,6 @@
 ## CSS画三角形、圆形、椭圆形
 
 
-# VW VH ？ 
+# VW VH ？
 
   content="width=device-width, initial-scale=1.0"
