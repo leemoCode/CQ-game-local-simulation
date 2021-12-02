@@ -91,8 +91,11 @@
 
   内联样式和外联样式的权重相同，优先级与加载顺序有关，后加载的样式覆盖先加载的。
 
+  部分浏览器由于字节溢出问题出现的进位表现暂不考虑 （256class干掉一个id （opera除外）
 
- # ::before :after 单冒号和双冒号的区别 以及这两个伪元素的作用
+# 水平垂直居中问题
+
+# ::before :after 单冒号和双冒号的区别 以及这两个伪元素的作用
   单冒号用于表示伪类 双冒号表示伪元素。
   但是为了兼容已有的伪元素写法，在部分浏览器中也可以使用单冒号来表示伪元素（支持旧的已经存在的伪元素的写法）如:first-letter、:first-line、:after等
 
@@ -135,7 +138,7 @@
   每个属性在定义时都给出了这个属性是否具有继承性，一个可继承的属性在未指定值时会使用父元素的同属性值作为自己的值。
 
   ## 有继承性的属性：
-    字体系列： 
+    字体系列：
       font-family font-size font-weight font-style
     文本系列：
       line-height text-align text-shadow word-spacing letter-spacing color
@@ -157,14 +160,57 @@
     当一个属性不是继承属性时，可以使用inherit关键字指定一个属性应从父元素继承它的值。
     inherit关键字用于显式地指定继承性，可用于任何继承性/非继承性属性。
 
+# CSS3 新增的伪类
+  child系列
+  1. elem:nth-child(n):
+    选择父元素下的第n个子元素，并且该子元素的标签名为elem
+    n可以为具体数字或函数
+  2. elem:nth-last-child(n):
+    同上，从后查找
+  3. elem:last-child:
+    选中最后一个元素
+  4. elem:only-child:
+    如果elem是父元素唯一的子元素则选中之
 
-# 水平垂直居中问题
+  type系列
+  1. elem:nth-of-type(n):
+    选中父元素下第n个elem类型元素
+  2. elem:first-of-type:
+    选中父元素下第一个elem类型的元素
+  3. elem:last-of-type
+  4. elem:only-of-type
+
+  其他
+  1. elem:empty:
+    选中不包含子元素和内容的elem类型元素
+  2. :not(elem):
+    选中不是elem类型的每个元素
+  3. :enabled
+    激活表单控件
+  4. :disabled
+    禁用表单控件
+  5. :checked
+    单选框或复选框被选中
 
 
 
 
 
+# 关于伪类LVHA
+  a 标签有四种状态：
+  L 链接访问前 :link
+  V 链接访问后 :visited
+  H 鼠标滑过 :hover
+  A 激活 :active
 
+  ## 当链接未访问过时：
+  1. 鼠标滑过a标签，满足:link 和 :hover两种状态， 要改变a标签的颜色 :hover 要在 :link伪类后声明
+  2. 鼠标点击激活a标签时，同时满足:link :hover :active三种状态， 要显示a标签激活的样式:active
+  所以要显示如下顺序： :link :visited :hover :active
+
+  ## LVHA的顺序可以改变吗？
+    可以，仅限于:link和:visited交换位置，因为一个链接要么访问过，要么没访问过
+    不会同时满足，也就不存在覆盖的问题
 
 
 # 页面呈现的流程

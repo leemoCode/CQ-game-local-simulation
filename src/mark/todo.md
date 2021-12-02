@@ -3,7 +3,8 @@
 
 验收表态功能
 
-tab隐藏功能 发布
+打标UI
+文章链接UI
 
 serverSource问题
 
@@ -45,6 +46,8 @@ commentsdk demo工程 模板
 
 
 ### 回收站
+<!-- tab隐藏功能 发布 -->
+
 <!-- styleType 问题 1.5- > 1.4 -->
 
 <!-- 增加三方id -->
