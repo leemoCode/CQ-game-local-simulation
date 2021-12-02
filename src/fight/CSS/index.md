@@ -138,8 +138,6 @@
 
   插入的内容在之前用::before 反之用:after
 
-
-
 # CSS哪些属性可以继承
   每个属性在定义时都给出了这个属性是否具有继承性，一个可继承的属性在未指定值时会使用父元素的同属性值作为自己的值。
 
@@ -198,10 +196,6 @@
   5. :checked
     单选框或复选框被选中
 
-
-
-
-
 # 关于伪类LVHA
   a 标签有四种状态：
   L 链接访问前 :link
@@ -217,6 +211,48 @@
   ## LVHA的顺序可以改变吗？
     可以，仅限于:link和:visited交换位置，因为一个链接要么访问过，要么没访问过
     不会同时满足，也就不存在覆盖的问题
+
+# display有哪些值以及其作用
+  block: 块类型。默认宽度为父元素宽度，可设置宽高，换行显示。
+  none	元素不显示，并从文档流中移除。
+  inline	行内元素类型。默认宽度为内容宽度，不可设置宽高，同行显示。
+  inline-block 默认宽度为内容宽度，可以设置宽高，同行显示。
+  list-item	像块类型元素一样显示，并添加样式列表标记。
+  table	此元素会作为块级表格来显示。
+  inherit	规定应该从父元素继承display属性的值。
+
+# display:block, inline, inline-block对比
+  ## display:block
+    block元素会独占一行，多个block元素会各自新起一行。默认情况下，block元素宽度自动填满其父元素宽度。
+    block元素可以设置width,height属性。块级元素即使设置了宽度,仍然是独占一行。
+    block元素可以设置margin和padding属性。
+
+  ## display:inline
+    inline元素不会独占一行，多个相邻的行内元素会排列在同一行里，直到一行排列不下，才会新换一行，其宽度随元素的内容而变化。
+    inline元素设置width,height属性无效。
+    inline元素的margin和padding属性，水平方向的padding-left, padding-right, margin-left, margin-right都产生边距效果；但竖直方向的padding-top, padding-bottom, margin-top, margin-bottom不会产生边距效果。
+
+  ## display:inline-block
+    简单来说就是将对象呈现为inline对象，但是对象的内容作为block对象呈现。之后的内联对象会被排列在同一行内。比如我们可以给一个link（a元素）inline-block属性值，使其既具有block的宽度高度特性又具有inline的同行特性。
+
+# position ..未完
+
+absolute
+生成绝对定位的元素，相对于值不为static的第一个父元素的padding box进行定位，也可以理解为离自己这一级元素最近的
+一级position设置为absolute或者relative的父元素的padding box的左上角为原点的。
+
+fixed（老IE不支持）
+生成绝对定位的元素，相对于浏览器窗口进行定位。
+
+relative
+生成相对定位的元素，相对于其元素本身所在正常位置进行定位。
+
+static
+默认值。没有定位，元素出现在正常的流中（忽略top,bottom,left,right,z-index声明）。
+
+inherit
+规定从父元素继承position属性的值。
+
 
 
 # 页面呈现的流程
