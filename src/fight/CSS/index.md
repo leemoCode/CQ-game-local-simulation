@@ -235,24 +235,88 @@
   ## display:inline-block
     简单来说就是将对象呈现为inline对象，但是对象的内容作为block对象呈现。之后的内联对象会被排列在同一行内。比如我们可以给一个link（a元素）inline-block属性值，使其既具有block的宽度高度特性又具有inline的同行特性。
 
-# position ..未完
+# position
+1. absolute
+  生成绝对定位的元素，相对于值不为static的第一个父元素的padding box进行定位
+  也可以理解为离自己这一级元素最近的一级position设置为absolute或者relative的父元素的盒子的左上角为原点的。
 
-absolute
-生成绝对定位的元素，相对于值不为static的第一个父元素的padding box进行定位，也可以理解为离自己这一级元素最近的
-一级position设置为absolute或者relative的父元素的padding box的左上角为原点的。
+2. fixed（老IE不支持）
+  生成绝对定位的元素，相对于浏览器窗口进行定位。
 
-fixed（老IE不支持）
-生成绝对定位的元素，相对于浏览器窗口进行定位。
+3. relative
+  生成相对定位的元素，相对于其元素本身所在正常位置进行定位。
 
-relative
-生成相对定位的元素，相对于其元素本身所在正常位置进行定位。
+4. static
+  默认值。没有定位，元素出现在正常的流中
+  将忽略top,bottom,left,right,z-index声明
 
-static
-默认值。没有定位，元素出现在正常的流中（忽略top,bottom,left,right,z-index声明）。
+5. inherit
+  规定从父元素继承position属性的值。
 
-inherit
-规定从父元素继承position属性的值。
+# flex布局
+  1. flexible 弹性布局，为盒模型提供最大的灵活性
+  2. 任何一个容器都可以设置为flex布局
+  3. 行内元素也可以使用flex布局，设置flex布局后， 子元素的float、clear和vertical-align属性将失效。
+  4. flex容器存在两根主轴：
+    水平主轴 main axis
+    垂直交叉轴 cross axis
+    flex-items默认按水平主轴排列
+  5. flex容器 属性：
+    1. flex-direction:
+      row(默认) | column | row-reverse | column-reverse
+    2. flex-wrap: 如果一条轴线排不开，如何换行
+      nowrap(默认) | wrap | wrap-reverse
+    3. flex-flow: 是flex-direction属性和flex-wrap属性的简写形式，
+      row nowrap(默认)
+    4. justify-content: 定义了项目在主轴上的对齐方式
+      flex-start（默认值）：左对齐
+      flex-end：右对齐
+      center： 居中
+      space-between：两端对齐，项目之间的间隔都相等。
+      space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+    5. align-items: 定义项目在交叉轴上如何对齐
+      flex-start：交叉轴的起点对齐。
+      flex-end：交叉轴的终点对齐。
+      center：交叉轴的中点对齐。
+      baseline: 项目的第一行文字的基线对齐。
+      stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度
+    6. align-content: 定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
+      flex-start：与交叉轴的起点对齐。
+      flex-end：与交叉轴的终点对齐。
+      center：与交叉轴的中点对齐。
+      space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。
+      space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+      stretch（默认值）：轴线占满整个交叉轴。
 
+
+  6. flex项目 属性：
+    1. order: 排列顺序
+      默认0
+    2. flex-grow: 定义项目放大比例
+      默认0
+      都为1 等分空间  有1有2 按比例分配
+    3. flex-shrink: 定义项目缩小比例
+      默认1 空间不足将缩小
+    4. flex-basis: 项目占据的主轴空间
+      默认auto 可以设置固定值为项目占据空间
+    5. flex: flex-grow, flex-shrink 和 flex-basis的简写
+      默认 0 1 auto
+      建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值
+    6. align-self: 允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items
+      默认auto，表示继承父元素的align-items属性
+      如果没有父元素，则等同于stretch
+
+  回答总结：
+  flex布局是CSS3新增的一种布局方式，我们可以通过将一个元素的display属性值设置为flex从而使它成为一个flex容器，它的所有子元素都会成为它的项目。
+
+  一个容器默认有两条轴，一个是水平的主轴，一个是与主轴垂直的交叉轴。我们可以使用flex-direction来指定主轴的方向。
+
+  我们可以使用justify-content来指定元素在主轴上的排列方式，使用align-items来指定元素在交叉轴上的排列方式。还可以使用flex-wrap来规定当一行排列不下时的换行方式。
+
+  对于容器中的项目，我们可以使用order属性来指定项目的排列顺序，还可以使用flex-grow来指定当排列空间有剩余的时候，项目的放大比例。还可以使用flex-shrink来指定当排列空间不足时，项目的缩小比例。
+
+  阮一峰教程
+  https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
 
 
 # 页面呈现的流程
@@ -294,7 +358,16 @@ inherit
   父元素设置display:none, 子元素设置显示也不会生效
 
 
-# CSS画三角形、圆形、椭圆形
+# 纯CSS画三角形以及原理
+  相邻边框连接处均分的原理
+  宽高设置为0 只设置border 把任意三条边隐藏掉
+  #demo {
+    width: 0;
+    height: 0;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+  }
 
 
 # VW VH ？
