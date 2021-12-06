@@ -9,6 +9,9 @@ dev/1.3 common-sdk 分支上线
 dev/1.3 common-view 分支上线
 dev/1.3 topic-view 分支上线
 
+锁屏一个BUG +  之前游客点赞问题 需发一个版本
+浏览器评论 回复的回复展示问题
+
 
 # 本迭代遗留任务
 打标UI
