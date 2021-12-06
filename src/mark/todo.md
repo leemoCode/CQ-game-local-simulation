@@ -1,40 +1,46 @@
 
-1130
+# 1206
 
-验收表态功能
+拉一个新分支 关闭话题入口
 
+browser_cms release/20211206 分支上线
+feature/closeTopic common-view分支上线
+dev/1.3 common-sdk 分支上线
+dev/1.3 common-view 分支上线
+dev/1.3 topic-view 分支上线
+
+
+# 本迭代遗留任务
 打标UI
+
 文章链接UI
+
+
+# 话题遗留优化项：
 
 serverSource问题
 
+pubArticleInfo 能否替代updateArticleInfo
 
-1122
+post follow 命名统一
+
+剔除commentId处 加注释或额外封装能力
+
+transparam 收拢sourceMedia和followId
+
+if isMethodValid 包装一层能力使用
+
+公告样式待优化
 
 话题列表图片 服务端传错链接的情况 屏蔽掉
 
-话题埋点修改
+话题 本地调试相对路径问题
 
-magazine.ts getConfigValue代码改动
+isFromTopic剔除
 
-下拉刷新问题
+TS检查
 
-
-isfromtopic isfrommessage  和现有sdk耦合
-话题 什么什么相对路径问题
-
-
-### 话题遗留优化
-isFromTopic能否干掉
-store 状态的维护 大改
-
-话题线上card域名和评论不同
-ts检查 && 提交时进行代码检查
-post followUp 统一起来
-
-
-### 其他
-
+### 池子
 
 锁屏升级评论1.3
 
@@ -46,6 +52,16 @@ commentsdk demo工程 模板
 
 
 ### 回收站
+
+<!-- 话题埋点修改 -->
+
+
+<!-- isfromtopic isfrommessage  和现有sdk耦合 -->
+
+<!-- magazine.ts getConfigValue代码改动
+
+下拉刷新问题 -->
+
 <!-- tab隐藏功能 发布 -->
 
 <!-- styleType 问题 1.5- > 1.4 -->
