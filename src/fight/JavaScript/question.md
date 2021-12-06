@@ -99,3 +99,25 @@
 
 # 关于BigInt
   https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+
+
+# 在 js 中不同进制数字的表示方式
+  以 0X、0x 开头的表示为十六进制。
+
+  以 0、0O、0o 开头的表示为八进制。
+
+  以 0B、0b 开头的表示为二进制格式。
+
+# js 中整数的安全范围是多少？
+
+安全整数指的是，在这个范围内的整数转化为二进制存储的时候不会出现精度丢失。
+最大整数是 2^53 - 1，即9007199254740991
+最小整数是 -(2^53 - 1) -9007199254740991。
+
+ES中表示：
+Number.MAX_SAFE_INTEGER
+Number.MIN_SAFE_INTEGER
+
+如果某次计算的结果得到了一个超过 JavaScript 数值范围的值，那么这个值会被自动转换为特殊的 Infinity 值。
+如果某次计算返回了正或负的 Infinity 值，那么该值将无法参与下一次的计算。
+判断一个数是不是有穷的，可以使用 isFinite 函数来判断。
