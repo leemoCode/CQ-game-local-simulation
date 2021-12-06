@@ -10,6 +10,12 @@
 # JS数据类型（原始类型）
   基本类型:
   Number Boolean String Null Undefined Symbol(ES6) BigInt(ES2020)
+
+  Symbol 
+    代表创建后独一无二且不可变的数据类型，它的出现我认为主要是为了解决可能出现的全局变量冲突的问题。
+  BigInt 
+    是一种数字类型的数据，它可以表示任意精度格式的整数，使用 BigInt 可以安全地存储和操作大整数，即使这个数已经超出了 Number 能够表示的安全整数范围。
+
   引用类型：
   Object （细分的话，有：Object 类型、Array 类型、Date 类型、RegExp 类型、Function 类型 等）
 

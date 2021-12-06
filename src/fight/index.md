@@ -2,6 +2,9 @@
 GOOD
 #https://github.com/CavsZhouyou/Front-End-Interview-Notebook
 
+# 算法
+https://101.zoo.team/
+
 # 面试魔法书
 http://www.qianduan.site/
 
