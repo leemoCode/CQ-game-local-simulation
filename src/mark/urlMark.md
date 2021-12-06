@@ -42,3 +42,7 @@ https://www.figma.com/file/qiJuXl8XQjRRViVtFYewbf/%E8%AF%9D%E9%A2%98%E6%A8%A1%E5
 
 ## 表态设计稿
 https://www.figma.com/file/rYKf116bmyr6X4zZtKvtJF/%E8%A1%A8%E6%80%81%E5%8A%9F%E8%83%BD?node-id=1%3A172
+
+
+## 1206 发布单
+https://doc.myoas.com/pages/viewpage.action?pageId=537912393
