@@ -116,14 +116,92 @@
 
 # js 中整数的安全范围是多少？
 
-安全整数指的是，在这个范围内的整数转化为二进制存储的时候不会出现精度丢失。
-最大整数是 2^53 - 1，即9007199254740991
-最小整数是 -(2^53 - 1) -9007199254740991。
+  安全整数指的是，在这个范围内的整数转化为二进制存储的时候不会出现精度丢失。
+  最大整数是 2^53 - 1，即9007199254740991
+  最小整数是 -(2^53 - 1) -9007199254740991。
 
-ES中表示：
-Number.MAX_SAFE_INTEGER
-Number.MIN_SAFE_INTEGER
+  ES中表示：
+  Number.MAX_SAFE_INTEGER
+  Number.MIN_SAFE_INTEGER
 
-如果某次计算的结果得到了一个超过 JavaScript 数值范围的值，那么这个值会被自动转换为特殊的 Infinity 值。
-如果某次计算返回了正或负的 Infinity 值，那么该值将无法参与下一次的计算。
-判断一个数是不是有穷的，可以使用 isFinite 函数来判断。
+  如果某次计算的结果得到了一个超过 JavaScript 数值范围的值，那么这个值会被自动转换为特殊的 Infinity 值。
+  如果某次计算返回了正或负的 Infinity 值，那么该值将无法参与下一次的计算。
+  判断一个数是不是有穷的，可以使用 isFinite 函数来判断。
+
+# typeof NaN的结果
+  typeof NaN; // number
+
+  NaN意指不是一个数字，是一个警戒值，用于指出数字类型中的错误情况。即执行数学运算没有成功，这是失败之后返回的结果
+
+  NaN是一个特殊值，和自身不相等，是唯一一个非自反的值 NaN !== NaN
+
+# isNaN 和 Number.isNaN 函数的区别
+
+
+
+# sort方法
+  直接调用arr.sort()
+  按默认的排序方式：将每个数组元素toString()后按字符串Unicode编码顺序进行排序
+
+  自定义排序规则：
+  传入一个函数作为参数，参数必须是函数
+  arr.sort(Fn)
+
+  // 例 降序排序
+  const sortFn = (a, b) => {
+    return b - a;
+  };
+  执行sort方法时逐个比对a,b元素，当sortFn返回值为 true 或 >1 时，交换两个元素
+
+  数组长度小于10时，采用插入排序；长度大于10，采用快排
+  插入排序时间复杂度：最差On^2 最好On
+  快排的时间复杂度Onlogn
+
+
+# 获取某数的绝对值
+  Math.abs(num)
+
+# 向下取整
+  Math.floor(num)
+
+# 向上取整
+  Math.ceil(num)
+  // 7.1 -> 8
+  // -7.1 -> -7
+
+# 指数幂
+  Math.pow(base, exponent) // base 的 exponent 次幂
+
+# 四舍五入
+  Math.round(num)
+  // 20.5 -> 21
+  // -20.5 -> -20
+
+
+
+# charAt()
+  str.charAt(index)
+  返回字符串中指定位置的单个字符
+
+# charCodeAt()
+  str.charCodeAt(index)
+  返回字符串指定位置处字符的Unicode编码
+  形成字符->数字的映射
+
+
+# trim()
+  str.trim() 去除字符串的所有空格
+
+
+# toLowerCase()
+
+# toUpperCase()
+
+# .replace(/[^A-Za-z0-9]/g, '')
+  去除字符串的非字母符号  ^A-za-z0-9
+
+# substring slice substr
+  https://www.jianshu.com/p/4d06661cf2b8
+
+
+http://c.biancheng.net/view/8196.html
