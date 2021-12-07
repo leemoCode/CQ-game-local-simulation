@@ -11,9 +11,9 @@
   基本类型:
   Number Boolean String Null Undefined Symbol(ES6) BigInt(ES2020)
 
-  Symbol 
+  Symbol
     代表创建后独一无二且不可变的数据类型，它的出现我认为主要是为了解决可能出现的全局变量冲突的问题。
-  BigInt 
+  BigInt
     是一种数字类型的数据，它可以表示任意精度格式的整数，使用 BigInt 可以安全地存储和操作大整数，即使这个数已经超出了 Number 能够表示的安全整数范围。
 
   引用类型：
@@ -48,10 +48,10 @@
   js 中的内置对象主要指的是在程序执行前存在全局作用域里的由 js 定义的一些 全局值属性、函数和用来实例化其他对象的构造函
   数对象。
   一般我们经常用到的如：
-    全局变量值 NaN、undefined
-    全局函数如 parseInt()、parseFloat()
-    用来实例化对象的构造函数如 Date、Object 等
-    还有提供数学计算的单体内置对象如 Math 对象。
+    1. 全局变量值 NaN、undefined
+    2. 全局函数如 parseInt()、parseFloat()
+    3. 用来实例化对象的构造函数如 Date、Object 等
+    4. 还有提供数学计算的单体内置对象如 Math 对象。
 
 # undefined 与 undeclared 的区别
   已经在作用域内声明但是还没有赋值的变量，是undefined。
