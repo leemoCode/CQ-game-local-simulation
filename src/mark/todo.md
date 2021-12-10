@@ -1,25 +1,13 @@
 
 # 1206
 
-<!-- 拉一个新分支 关闭话题入口 -->
+锁屏一个BUG +  需发一个版本
 
-browser_cms release/20211206 分支上线
-feature/closeTopic common-view分支上线
-dev/1.3 common-sdk 分支上线
-dev/1.3 common-view 分支上线
-dev/1.3 topic-view 分支上线
-
-锁屏一个BUG +  之前游客点赞问题 需发一个版本
-浏览器评论 回复的回复展示问题
-
-
-# 本迭代遗留任务
-打标UI
-
-文章链接UI
-
+评论sdk 1.2 向上合并
 
 # 话题遗留优化项：
+所有数据、逻辑向sdk内迁移
+
 api层统一起来
 
 serverSource问题
@@ -56,6 +44,22 @@ commentsdk demo工程 模板
 
 
 ### 回收站
+
+<!-- 拉一个新分支 关闭话题入口 -->
+
+<!-- browser_cms release/20211206 分支上线
+feature/closeTopic common-view分支上线
+dev/1.3 common-sdk 分支上线
+dev/1.3 common-view 分支上线
+dev/1.3 topic-view 分支上线 -->
+
+<!-- 浏览器评论 回复的回复展示问题 -->
+
+
+<!-- # 本迭代遗留任务
+打标UI
+
+文章链接UI -->
 
 <!-- 话题埋点修改 -->
 
