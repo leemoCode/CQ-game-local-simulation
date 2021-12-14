@@ -31,3 +31,23 @@ const solution = (str) => {
 
 solution('abbaija');
 solution('aaabbaija');
+
+
+const newInstanceof = (left, right) => {
+  // 左边实例对象 右边构造函数
+
+  let leftProto = left.__proto__;
+  let rightPrototype = right.prototype;
+
+  while(true) {
+    if (leftProto === rightPrototype) {
+      return true;
+    }
+
+    if (leftProto === null) {
+      return false;
+    }
+
+    leftProto = leftProto.__proto__;
+  }
+}
