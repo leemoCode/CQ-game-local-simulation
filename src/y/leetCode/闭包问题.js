@@ -16,3 +16,10 @@ foo(1);
 result[0](); // 3
 result[1](); // 6
 result[2](); // 9
+
+(function hello(params) {
+  let a = 1214;
+  if (true) {
+    console.log(a);
+  }
+})();
