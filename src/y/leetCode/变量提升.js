@@ -58,3 +58,10 @@ function Todo(todo) {
 // AB  CD
 // BD  AC
 // AD  BC
+
+// S1: FS MZ WS HS NG
+
+// S2: LS MZ WS HS ND
+
+// S1: NG FS HS
+// S2: ND LS WS
