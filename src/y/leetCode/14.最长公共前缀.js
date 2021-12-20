@@ -57,3 +57,5 @@ const solution2 = (strs) => {
 
   return curCommonString;
 };
+
+console.log(solution2(['flow', 'flower', 'flight']));
