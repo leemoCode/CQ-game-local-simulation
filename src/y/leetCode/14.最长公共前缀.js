@@ -32,3 +32,30 @@ const solution = (strs) => {
 };
 
 console.log(solution(['flow', 'flower', 'flight']));
+
+const solution2 = (strs) => {
+  if (strs.length === 0) {
+    return '';
+  }
+
+  let curCommonString = strs[0];
+
+  for (const item of strs) {
+    let i = 0;
+    for (; i < item.length; i++) {
+      if (curCommonString[i] !== item[i]) {
+        break;
+      }
+    }
+
+    curCommonString = curCommonString.slice(0, i);
+
+    if (curCommonString === '') {
+      return '';
+    }
+  }
+
+  return curCommonString;
+};
+
+console.log(solution2(['flow', 'flower', 'flight']));
