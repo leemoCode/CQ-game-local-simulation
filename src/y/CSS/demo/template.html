@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-  <title>Template</title>
-  <style>
-    .outer {
-      width: 200px;
-      height: 300px;
-      background: #22DC8D;
-    }
+不用一行js也能解决上下游动效果 可以试试 代码很简单
 
-    .inner {
-      width: 50%;
-      padding-bottom: 50%;
-      background: #EFB6A7;
-    }
-  </style>
-</head>
 
-<body>
-  <div class="outer">
-    <div class="inner"></div>
+<style>
+  .div1 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+  }
+
+  @keyframes anis {
+    100% {
+      transform: translateY(-200px)
+    }
+  }
+
+  img {
+    position: absolute;
+  }
+
+
+  .div2 {
+    animation: anis 3s linear infinite;
+  }
+
+  /* .div2:hover {
+    animation-play-state: paused;
+  } */
+</style>
+
+
+
+
+<div class="div1">
+  <div class="div2">
+    <p>你来了</p>
+    <p>你来了</p>
+    <p>你来了</p>
+    <p>你来了</p>
+    <p>你来了</p>
+    <p>你来了</p>
+    <p>你来了</p>
+    <p>你来了</p>
+    <p>你来了</p>
   </div>
-</body>
+</div>
+
+希望能帮到你们！！！
+
 
 </html>

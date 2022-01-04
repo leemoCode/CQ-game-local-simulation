@@ -6,3 +6,7 @@ const sortFn = (a, b) => {
 
 const sortArr = arr.sort(sortFn);
 console.log(sortArr);
+
+JSON.parse(
+  '{"picUrl":"","extension":"{"commentId":"1029664047836496128","replyId":"1126854531989733632","beRepliedId":"616575461"}","commentId":"1029664047836496128","comment":"😄😄😄","fake":"0","imageList":[]}'
+);
