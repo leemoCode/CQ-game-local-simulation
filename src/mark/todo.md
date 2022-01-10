@@ -1,28 +1,49 @@
 
-# 0104
+# 2022
 
-信息流一个bug
+# 0110
 
-锁屏浅暗色模式闪黑问题定位
+锁屏发布
+评论发布
+话题发布
+
+新页面 和 表态 设计
 
 
+整理技术需求
 
-# 话题遗留优化项：
-所有数据、逻辑向sdk内迁移
+述职准备
 
-api层统一起来
+表态遗留
 
-serverSource问题
+----------------------------
+Q1 OKR
+
+
+review 51的代码
+
+51改gitlab的用户信息
+
+分支命名
+
+# 遗留优化项：
+锁屏升级评论1.4 (删除toast同步修改 评论已删除 回复已删除)
+
+视图层内通用的能力全部向sdk内迁移（表态等等）
+
+wv.isMethodValid能力封装
+
+commentsdk TS校验
+
+
+页面跳转时携带参数全部收拢至transparam内(sourceMedia和followId)
+
+跟帖命名（post、follow）统一
 
 pubArticleInfo 能否替代updateArticleInfo
 
-post follow 命名统一
 
-剔除commentId处 加注释或额外封装能力
-
-transparam 收拢sourceMedia和followId
-
-if isMethodValid 包装一层能力使用
+api层统一起来
 
 公告样式待优化
 
@@ -30,22 +51,33 @@ if isMethodValid 包装一层能力使用
 
 话题 本地调试相对路径问题
 
-isFromTopic剔除
-
-TS检查
-
-### 池子
-
-锁屏升级评论1.3
 
 预览功能按钮样式变化
-
-
 
 commentsdk demo工程 模板
 
 
 ### 回收站
+2021 Q4 绩效自评
+
+话题 UI修改
+
+负反馈浏览器联调
+
+0124需求评审 了解需求
+
+删除本人评论联调
+
+信息流一个bug
+2022
+
+锁屏浅暗色模式闪黑问题定位
+
+
+
+-------------------------------------
+
+isFromTopic剔除
 
 发布器联调
 
