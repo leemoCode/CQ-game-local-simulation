@@ -39,7 +39,7 @@ const newInstanceof = (left, right) => {
   let leftProto = left.__proto__;
   let rightPrototype = right.prototype;
 
-  while(true) {
+  while (true) {
     if (leftProto === rightPrototype) {
       return true;
     }
