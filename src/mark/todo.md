@@ -5,20 +5,11 @@
 
 Q4 OKR完善
 
-<!-- 儿童模式开发 -->
-
 表态曝光埋点异常
-
-文案修改分支合并
-
-关闭短小视频入口
-
-<!-- 澄清需求 -->
-
-跟帖显示引用回复需求  评论 话题
 
 锁屏评论升级1.4版本
 
+文案修改分支合并
 
 技术需求：
 1. 锁屏评论升级1.4版本
@@ -30,32 +21,9 @@ Q4 OKR完善
 5. 页面跳转时携带参数全部收拢至transparam内
 6. 跟帖命名（post、follow）统一
 
-----------------------------
-Q1 OKR
-
-
-review 51的代码
-
-51改gitlab的用户信息
-
-分支命名
 
 # 遗留优化项：
-锁屏升级评论1.4 (删除toast同步修改 评论已删除 回复已删除)
-
-视图层内通用的能力全部向sdk内迁移（表态等等）
-
-wv.isMethodValid能力封装
-
-commentsdk TS校验
-
-
-页面跳转时携带参数全部收拢至transparam内(sourceMedia和followId)
-
-跟帖命名（post、follow）统一
-
 pubArticleInfo 能否替代updateArticleInfo
-
 
 api层统一起来
 
@@ -72,6 +40,38 @@ commentsdk demo工程 模板
 
 
 ### 回收站
+
+Q1 OKR
+
+
+review 51的代码
+
+51改gitlab的用户信息
+
+分支命名
+
+锁屏升级评论1.4 (删除toast同步修改 评论已删除 回复已删除)
+
+视图层内通用的能力全部向sdk内迁移（表态等等）
+
+wv.isMethodValid能力封装
+
+commentsdk TS校验
+
+
+页面跳转时携带参数全部收拢至transparam内(sourceMedia和followId)
+
+跟帖命名（post、follow）统一
+
+
+
+<!-- 儿童模式开发 -->
+
+<!-- 跟帖显示引用回复需求  评论 话题 -->
+
+<!-- 关闭短小视频入口 -->
+
+<!-- 澄清需求 -->
 
 
 锁屏发布
@@ -98,10 +98,6 @@ commentsdk demo工程 模板
 2022
 
 锁屏浅暗色模式闪黑问题定位
-
-
-
--------------------------------------
 
 isFromTopic剔除
 
