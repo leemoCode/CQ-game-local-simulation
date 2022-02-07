@@ -22,7 +22,7 @@ export const Emmanuel = {
   level: 70,
   hp: 356000,
   mp: 23000,
-  ack: 57000,
+  ack: 47000,
   critPercent: 30,
   critLevel: 270,
 
