@@ -15,3 +15,20 @@ export const demoMZ = {
   ackReduce: 20,
   ackIncrease: 20,
 };
+
+export const tianwuyan = {
+  name: '天无言',
+  character: 'mz',
+  level: 70,
+  hp: 477950,
+  mp: 18000,
+  ack: 23000,
+  critPercent: 20,
+  critLevel: 255,
+
+  wDefence: 8500,
+  fDefence: 7500,
+
+  ackReduce: 40,
+  ackIncrease: 37,
+};

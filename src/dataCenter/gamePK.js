@@ -2,6 +2,7 @@ import { demoWS, zoubeiye } from './gameData/ws.js';
 import { demoLS, woshikengkeng } from './gameData/ls.js';
 import { demoSS } from './gameData/ss.js';
 import { demoFS, Emmanuel } from './gameData/fs.js';
+import { demoMZ, tianwuyan } from './gameData/mz.js';
 
 // 1物理系 0法术系
 const characterList = {
@@ -77,4 +78,4 @@ const pk = (data1, data2) => {
   );
 };
 
-pk(Emmanuel, zoubeiye);
+pk(woshikengkeng, tianwuyan);
