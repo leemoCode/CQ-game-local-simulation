@@ -1,68 +1,7 @@
-/*
-character 职业
-level 等级
-hp 血量
-mp 蓝量
-ack 攻击力
-critPercent 暴击率
-critLevel 暴击伤害
-wDefence 物理防御
-fDefence 法术防御
-
-ackReduce 最终伤害减少百分比
-ackIncrease 最终伤害增多百分比
-*/
-
-const demoData1 = {
-  name: 'leemo',
-  character: 'ws',
-  level: 70,
-  hp: 350000,
-  mp: 12000,
-  ack: 56000,
-  critPercent: 20,
-  critLevel: 240,
-
-  wDefence: 4500,
-  fDefence: 2300,
-
-  ackReduce: 10,
-  ackIncrease: 15,
-};
-
-const demoData2 = {
-  name: 'kiko',
-  character: 'fs',
-  level: 70,
-  hp: 190000,
-  mp: 56000,
-  ack: 73700,
-  critPercent: 25,
-  critLevel: 220,
-
-  wDefence: 2000,
-  fDefence: 1500,
-
-  ackReduce: 7,
-  ackIncrease: 20,
-};
-
-const qingjiaowoyao = {
-  name: '请叫我妖丶',
-  character: 'hs',
-  level: 70,
-  hp: 270000,
-  mp: 46000,
-  ack: 93700,
-  critPercent: 40,
-  critLevel: 270,
-
-  wDefence: 3500,
-  fDefence: 4500,
-
-  ackReduce: 25,
-  ackIncrease: 27,
-};
+import { demoWS, zoubeiye } from './gameData/ws.js';
+import { demoLS, woshikengkeng } from './gameData/ls.js';
+import { demoSS } from './gameData/ss.js';
+import { demoFS, Emmanuel } from './gameData/fs.js';
 
 // 1物理系 0法术系
 const characterList = {
@@ -97,9 +36,12 @@ const createAckThisRound = (data1, data2) => {
   const ackIncreasePercent = (data1.ackIncrease + 100) / 100;
   const ackReducePercent = (100 - data2.ackReduce) / 100;
 
-  const ackFinally = Math.round(
+  let ackFinally = Math.round(
     ackAfterCrit * ackIncreasePercent * ackReducePercent
   );
+
+  ackFinally = ackFinally > 0 ? ackFinally : 0;
+
   console.log(
     `[${data1.name}]${isCrit ? ' 暴击' : ''} 造成${ackFinally}点伤害`
   );
@@ -135,4 +77,4 @@ const pk = (data1, data2) => {
   );
 };
 
-pk(demoData2, demoData1);
+pk(Emmanuel, zoubeiye);
