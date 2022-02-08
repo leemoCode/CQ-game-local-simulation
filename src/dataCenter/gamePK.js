@@ -4,7 +4,7 @@ import { demoSS } from './gameData/ss.js';
 import { demoCK } from './gameData/ck.js';
 import { demoFS, Emmanuel } from './gameData/fs.js';
 import { demoJS, zhaizhai } from './gameData/js.js';
-import { demoHS } from './gameData/hs.js';
+import { demoHS, qingjiaowoyao } from './gameData/hs.js';
 import { demoMZ, tianwuyan } from './gameData/mz.js';
 
 // 1物理系 0法术系
@@ -81,4 +81,4 @@ const pk = (data1, data2) => {
   );
 };
 
-pk(woshikengkeng, Emmanuel);
+pk(Emmanuel, qingjiaowoyao);

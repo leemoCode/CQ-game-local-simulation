@@ -22,7 +22,7 @@ export const zhaizhai = {
   level: 70,
   hp: 526400,
   mp: 45000,
-  ack: 29978,
+  ack: 33978,
   critPercent: 21,
   critLevel: 160,
 

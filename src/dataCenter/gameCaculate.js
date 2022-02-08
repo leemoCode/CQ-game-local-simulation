@@ -4,7 +4,7 @@ import { demoSS } from './gameData/ss.js';
 import { demoCK } from './gameData/ck.js';
 import { demoFS, Emmanuel } from './gameData/fs.js';
 import { demoJS, zhaizhai } from './gameData/js.js';
-import { demoHS } from './gameData/hs.js';
+import { demoHS, qingjiaowoyao } from './gameData/hs.js';
 import { demoMZ, tianwuyan } from './gameData/mz.js';
 
 // base value 100000
@@ -18,6 +18,19 @@ const base = {
   fDefence: 1500, // 12000
   ackReduce: 3, // 7500
   ackIncrease: 3, // 6000
+}
+
+const rankList = [];
+
+const sort = () => {
+  rankList.sort((a, b) => {
+    return b.value - a.value;
+  });
+
+  console.log('----------排行榜----------');
+  for(let i = 0; i < rankList.length; i++) {
+    console.log(`${i + 1}. ${rankList[i].value}  [${rankList[i].name}]`);
+  }
 }
 
 const caculate = (targetGamerData) => {
@@ -43,27 +56,30 @@ const caculate = (targetGamerData) => {
 
   console.log(`玩家：[${targetGamerData.name}] 战斗力为：${total}`);
 
+  rankList.push({name: targetGamerData.name, value: total});
+
   return total;
 }
 
 
-caculate(demoWS);
-caculate(demoLS);
+// caculate(demoWS);
+// caculate(demoLS);
 
-caculate(demoFS);
-caculate(demoJS);
+// caculate(demoFS);
+// caculate(demoJS);
 
-caculate(demoMZ);
-caculate(demoHS);
+// caculate(demoMZ);
+// caculate(demoHS);
 
-caculate(demoCK);
-caculate(demoSS);
+// caculate(demoCK);
+// caculate(demoSS);
 
-// caculate(zoubeiye);
-// caculate(woshikengkeng);
-// caculate(Emmanuel);
-// caculate(tianwuyan);
-// caculate(zhaizhai);
+caculate(zoubeiye);
+caculate(woshikengkeng);
+caculate(Emmanuel);
+caculate(tianwuyan);
+caculate(zhaizhai);
+caculate(qingjiaowoyao);
 
 
-
+sort();
