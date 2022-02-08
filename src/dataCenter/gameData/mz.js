@@ -12,8 +12,8 @@ export const demoMZ = {
   wDefence: 2800,
   fDefence: 3500,
 
-  ackReduce: 6,
-  ackIncrease: 6,
+  ackReduce: 8,
+  ackIncrease: 11,
 };
 
 export const tianwuyan = {

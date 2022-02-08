@@ -9,10 +9,10 @@ export const demoLS = {
   critPercent: 15,
   critLevel: 180,
 
-  wDefence: 4500,
+  wDefence: 4450,
   fDefence: 1200,
 
-  ackReduce: 7,
+  ackReduce: 9,
   ackIncrease: 0,
 };
 

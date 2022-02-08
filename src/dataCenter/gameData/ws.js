@@ -5,9 +5,9 @@ export const demoWS = {
   level: 70,
   hp: 200000,
   mp: 7000,
-  ack: 10000,
+  ack: 9550,
   critPercent: 10,
-  critLevel: 210,
+  critLevel: 200,
 
   wDefence: 3000,
   fDefence: 2000,
