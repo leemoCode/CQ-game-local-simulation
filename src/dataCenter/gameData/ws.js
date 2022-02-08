@@ -7,13 +7,13 @@ export const demoWS = {
   mp: 7000,
   ack: 10000,
   critPercent: 10,
-  critLevel: 200,
+  critLevel: 210,
 
   wDefence: 3000,
   fDefence: 2000,
 
   ackReduce: 5,
-  ackIncrease: 5,
+  ackIncrease: 8,
 };
 
 export const zoubeiye = {
@@ -30,5 +30,5 @@ export const zoubeiye = {
   fDefence: 5100,
 
   ackReduce: 17,
-  ackIncrease: 22,
+  ackIncrease: 25,
 };

@@ -13,5 +13,5 @@ export const demoSS = {
   fDefence: 3000,
 
   ackReduce: 0,
-  ackIncrease: 15,
+  ackIncrease: 11,
 };

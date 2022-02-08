@@ -5,7 +5,7 @@ export const demoCK = {
   level: 70,
   hp: 150000,
   mp: 9500,
-  ack: 14000,
+  ack: 14500,
   critPercent: 25,
   critLevel: 230,
 
@@ -13,5 +13,5 @@ export const demoCK = {
   fDefence: 2000,
 
   ackReduce: 0,
-  ackIncrease: 20,
+  ackIncrease: 9,
 };

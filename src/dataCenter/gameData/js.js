@@ -12,6 +12,6 @@ export const demoJS = {
   wDefence: 3500,
   fDefence: 3500,
 
-  ackReduce: 15,
-  ackIncrease: 10,
+  ackReduce: 6,
+  ackIncrease: 5,
 };

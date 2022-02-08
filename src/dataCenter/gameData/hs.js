@@ -9,9 +9,9 @@ export const demoHS = {
   critPercent: 15,
   critLevel: 210,
 
-  wDefence: 3000,
-  fDefence: 3000,
+  wDefence: 3050,
+  fDefence: 3100,
 
-  ackReduce: 5,
+  ackReduce: 3,
   ackIncrease: 5,
 };

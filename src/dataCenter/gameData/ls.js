@@ -7,12 +7,12 @@ export const demoLS = {
   mp: 6500,
   ack: 7500,
   critPercent: 15,
-  critLevel: 170,
+  critLevel: 180,
 
   wDefence: 4500,
   fDefence: 1200,
 
-  ackReduce: 10,
+  ackReduce: 7,
   ackIncrease: 0,
 };
 

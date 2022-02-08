@@ -13,7 +13,7 @@ export const demoFS = {
   fDefence: 2000,
 
   ackReduce: 0,
-  ackIncrease: 10,
+  ackIncrease: 15,
 };
 
 export const Emmanuel = {

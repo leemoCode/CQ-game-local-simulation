@@ -7,13 +7,13 @@ export const demoMZ = {
   mp: 12000,
   ack: 7500,
   critPercent: 5,
-  critLevel: 175,
+  critLevel: 160,
 
   wDefence: 2800,
   fDefence: 3500,
 
-  ackReduce: 20,
-  ackIncrease: 20,
+  ackReduce: 6,
+  ackIncrease: 6,
 };
 
 export const tianwuyan = {
@@ -24,11 +24,11 @@ export const tianwuyan = {
   mp: 18000,
   ack: 23000,
   critPercent: 20,
-  critLevel: 255,
+  critLevel: 230,
 
   wDefence: 8500,
   fDefence: 7500,
 
-  ackReduce: 40,
-  ackIncrease: 37,
+  ackReduce: 25,
+  ackIncrease: 22,
 };
