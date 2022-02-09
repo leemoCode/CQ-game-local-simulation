@@ -1,14 +1,14 @@
-import { demoWS, zoubeiye, duoduo } from './gameData/ws.js';
-import { demoLS, woshikengkeng } from './gameData/ls.js';
+import { demoWS, zoubeiye, duoduo } from '../../dataCenter/gameData/ws.js';
+import { demoLS, woshikengkeng } from '../../dataCenter/gameData/ls.js';
 
-import { demoSS, huashao, ssdeyanlei } from './gameData/ss.js';
-import { demoCK, momo, piaopiao } from './gameData/ck.js';
+import { demoSS, huashao, ssdeyanlei } from '../../dataCenter/gameData/ss.js';
+import { demoCK, momo, piaopiao } from '../../dataCenter/gameData/ck.js';
 
-import { demoFS, Emmanuel } from './gameData/fs.js';
-import { demoJS, zhaizhai } from './gameData/js.js';
+import { demoFS, Emmanuel } from '../../dataCenter/gameData/fs.js';
+import { demoJS, zhaizhai, woshisansan, zhonghe } from '../../dataCenter/gameData/js.js';
 
-import { demoHS, qingjiaowoyao, hongrenyaxi } from './gameData/hs.js';
-import { demoMZ, tianwuyan, yinqiangfeiwu } from './gameData/mz.js';
+import { demoHS, qingjiaowoyao, hongrenyaxi } from '../../dataCenter/gameData/hs.js';
+import { demoMZ, tianwuyan, yinqiangfeiwu } from '../../dataCenter/gameData/mz.js';
 
 const isConsoleEveryValue = false;
 
@@ -25,7 +25,7 @@ const sort = () => {
   }
 }
 
-const caculate = (targetGamerData) => {
+export const caculateTargetGamer = (targetGamerData) => {
   if (isConsoleEveryValue) {
     console.log(`------------[${targetGamerData.name}] 战斗力数值组成-------------`);
   }
@@ -60,31 +60,10 @@ const caculate = (targetGamerData) => {
   return total;
 }
 
+export const caculateAll = (list) => {
+  for (const item of list) {
+    caculateTargetGamer(item);
+  }
 
-// caculate(demoWS);
-// caculate(demoLS);
-
-// caculate(demoFS);
-// caculate(demoJS);
-
-// caculate(demoMZ);
-// caculate(demoHS);
-
-// caculate(demoCK);
-// caculate(demoSS);
-
-caculate(zoubeiye);
-caculate(woshikengkeng);
-caculate(Emmanuel);
-caculate(tianwuyan);
-caculate(zhaizhai);
-caculate(qingjiaowoyao);
-caculate(momo);
-caculate(huashao);
-caculate(duoduo);
-caculate(hongrenyaxi);
-caculate(yinqiangfeiwu);
-caculate(ssdeyanlei);
-caculate(piaopiao);
-
-sort();
+  sort();
+}

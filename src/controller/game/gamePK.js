@@ -1,14 +1,14 @@
-import { demoWS, zoubeiye, duoduo } from './gameData/ws.js';
-import { demoLS, woshikengkeng } from './gameData/ls.js';
+import { demoWS, zoubeiye, duoduo } from '../../dataCenter/gameData/ws.js';
+import { demoLS, woshikengkeng } from '../../dataCenter/gameData/ls.js';
 
-import { demoSS, huashao, ssdeyanlei } from './gameData/ss.js';
-import { demoCK, momo, piaopiao } from './gameData/ck.js';
+import { demoSS, huashao, ssdeyanlei } from '../../dataCenter/gameData/ss.js';
+import { demoCK, momo, piaopiao } from '../../dataCenter/gameData/ck.js';
 
-import { demoFS, Emmanuel } from './gameData/fs.js';
-import { demoJS, zhaizhai } from './gameData/js.js';
+import { demoFS, Emmanuel } from '../../dataCenter/gameData/fs.js';
+import { demoJS, zhaizhai, woshisansan, zhonghe } from '../../dataCenter/gameData/js.js';
 
-import { demoHS, qingjiaowoyao, hongrenyaxi } from './gameData/hs.js';
-import { demoMZ, tianwuyan, yinqiangfeiwu } from './gameData/mz.js';
+import { demoHS, qingjiaowoyao, hongrenyaxi } from '../../dataCenter/gameData/hs.js';
+import { demoMZ, tianwuyan, yinqiangfeiwu } from '../../dataCenter/gameData/mz.js';
 
 
 // 1物理系 0法术系
@@ -59,7 +59,7 @@ const createAckThisRound = (data1, data2) => {
   return ackFinally;
 };
 
-const pk = (data1, data2) => {
+export const pk = (data1, data2) => {
   let curHp1 = data1.hp;
   let curHp2 = data2.hp;
 
@@ -86,5 +86,3 @@ const pk = (data1, data2) => {
     }] 获胜，剩余血量 ${Math.max(curHp1, curHp2)}`
   );
 };
-
-pk(piaopiao, ssdeyanlei);
