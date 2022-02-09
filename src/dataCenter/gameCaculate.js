@@ -1,11 +1,14 @@
-import { demoWS, zoubeiye } from './gameData/ws.js';
+import { demoWS, zoubeiye, duoduo } from './gameData/ws.js';
 import { demoLS, woshikengkeng } from './gameData/ls.js';
-import { demoSS, huashao } from './gameData/ss.js';
-import { demoCK, momo } from './gameData/ck.js';
+
+import { demoSS, huashao, ssdeyanlei } from './gameData/ss.js';
+import { demoCK, momo, piaopiao } from './gameData/ck.js';
+
 import { demoFS, Emmanuel } from './gameData/fs.js';
 import { demoJS, zhaizhai } from './gameData/js.js';
-import { demoHS, qingjiaowoyao } from './gameData/hs.js';
-import { demoMZ, tianwuyan } from './gameData/mz.js';
+
+import { demoHS, qingjiaowoyao, hongrenyaxi } from './gameData/hs.js';
+import { demoMZ, tianwuyan, yinqiangfeiwu } from './gameData/mz.js';
 
 const isConsoleEveryValue = false;
 
@@ -58,17 +61,17 @@ const caculate = (targetGamerData) => {
 }
 
 
-caculate(demoWS);
-caculate(demoLS);
+// caculate(demoWS);
+// caculate(demoLS);
 
-caculate(demoFS);
-caculate(demoJS);
+// caculate(demoFS);
+// caculate(demoJS);
 
-caculate(demoMZ);
-caculate(demoHS);
+// caculate(demoMZ);
+// caculate(demoHS);
 
-caculate(demoCK);
-caculate(demoSS);
+// caculate(demoCK);
+// caculate(demoSS);
 
 caculate(zoubeiye);
 caculate(woshikengkeng);
@@ -78,6 +81,10 @@ caculate(zhaizhai);
 caculate(qingjiaowoyao);
 caculate(momo);
 caculate(huashao);
-
+caculate(duoduo);
+caculate(hongrenyaxi);
+caculate(yinqiangfeiwu);
+caculate(ssdeyanlei);
+caculate(piaopiao);
 
 sort();

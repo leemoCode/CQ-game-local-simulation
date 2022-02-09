@@ -32,3 +32,20 @@ export const tianwuyan = {
   ackReduce: 25,
   ackIncrease: 22,
 };
+
+export const yinqiangfeiwu = {
+  name: '银枪飞舞',
+  character: 'mz',
+  level: 70,
+  hp: 426985,
+  mp: 12000,
+  ack: 29000,
+  critPercent: 40,
+  critLevel: 275,
+
+  wDefence: 9000,
+  fDefence: 10000,
+
+  ackReduce: 18,
+  ackIncrease: 16,
+};

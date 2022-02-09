@@ -1,11 +1,15 @@
-import { demoWS, zoubeiye } from './gameData/ws.js';
+import { demoWS, zoubeiye, duoduo } from './gameData/ws.js';
 import { demoLS, woshikengkeng } from './gameData/ls.js';
-import { demoSS, huashao } from './gameData/ss.js';
-import { demoCK, momo } from './gameData/ck.js';
+
+import { demoSS, huashao, ssdeyanlei } from './gameData/ss.js';
+import { demoCK, momo, piaopiao } from './gameData/ck.js';
+
 import { demoFS, Emmanuel } from './gameData/fs.js';
 import { demoJS, zhaizhai } from './gameData/js.js';
-import { demoHS, qingjiaowoyao } from './gameData/hs.js';
-import { demoMZ, tianwuyan } from './gameData/mz.js';
+
+import { demoHS, qingjiaowoyao, hongrenyaxi } from './gameData/hs.js';
+import { demoMZ, tianwuyan, yinqiangfeiwu } from './gameData/mz.js';
+
 
 // 1物理系 0法术系
 const characterList = {
@@ -22,6 +26,7 @@ const characterList = {
   hs: 0,
 };
 
+// 本轮是否暴击
 const createIsCritThisRound = (critLevel) => {
   const random = Math.round(Math.random() * 100);
 
@@ -29,6 +34,7 @@ const createIsCritThisRound = (critLevel) => {
   return random < critLevel ? true : false;
 };
 
+// 计算本轮伤害
 const createAckThisRound = (data1, data2) => {
   const isCrit = createIsCritThisRound(data1.critPercent); //是否暴击
   const isWl = characterList[data1.character]; //是否是物理系伤害
@@ -41,7 +47,7 @@ const createAckThisRound = (data1, data2) => {
   const ackReducePercent = (100 - data2.ackReduce) / 100;
 
   let ackFinally = Math.round(
-    ackAfterCrit * ackIncreasePercent * ackReducePercent
+    ackAfterCrit * ackIncreasePercent * ackReducePercent + Math.random() * 1000
   );
 
   ackFinally = ackFinally > 0 ? ackFinally : 0;
@@ -81,4 +87,4 @@ const pk = (data1, data2) => {
   );
 };
 
-pk(huashao, Emmanuel);
+pk(piaopiao, ssdeyanlei);

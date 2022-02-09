@@ -32,3 +32,20 @@ export const qingjiaowoyao = {
   ackReduce: 8,
   ackIncrease: 20,
 };
+
+export const hongrenyaxi = {
+  name: '荭人娅熙',
+  character: 'hs',
+  level: 70,
+  hp: 402766,
+  mp: 15000,
+  ack: 25477,
+  critPercent: 30,
+  critLevel: 260,
+
+  wDefence: 8000,
+  fDefence: 7200,
+
+  ackReduce: 17,
+  ackIncrease: 20,
+};

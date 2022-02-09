@@ -32,3 +32,21 @@ export const huashao = {
   ackReduce: 5,
   ackIncrease: 32,
 };
+
+
+export const ssdeyanlei = {
+  name: 'SS的眼泪',
+  character: 'ss',
+  level: 70,
+  hp: 379975,
+  mp: 11000,
+  ack: 50017,
+  critPercent: 35,
+  critLevel: 290,
+
+  wDefence: 4200,
+  fDefence: 13000,
+
+  ackReduce: 12,
+  ackIncrease: 30,
+};

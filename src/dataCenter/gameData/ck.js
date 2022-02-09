@@ -32,3 +32,20 @@ export const momo = {
   ackReduce: 7,
   ackIncrease: 40,
 };
+
+export const piaopiao = {
+  name: '漂漂',
+  character: 'ck',
+  level: 70,
+  hp: 462780,
+  mp: 17655,
+  ack: 45733,
+  critPercent: 45,
+  critLevel: 350,
+
+  wDefence: 5500,
+  fDefence: 5000,
+
+  ackReduce: 12,
+  ackIncrease: 48,
+};

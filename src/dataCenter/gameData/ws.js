@@ -32,3 +32,21 @@ export const zoubeiye = {
   ackReduce: 20,
   ackIncrease: 27,
 };
+
+export const duoduo = {
+  name: '朵朵',
+  character: 'ws',
+  level: 70,
+  hp: 447790,
+  mp: 15000,
+  ack: 38845,
+  critPercent: 10,
+  critLevel: 300,
+
+  wDefence: 6000,
+  fDefence: 5500,
+
+  ackReduce: 10,
+  ackIncrease: 30,
+};
+
