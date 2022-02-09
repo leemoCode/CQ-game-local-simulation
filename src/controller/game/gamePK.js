@@ -1,16 +1,3 @@
-import { demoWS, zoubeiye, duoduo } from '../../dataCenter/gameData/ws.js';
-import { demoLS, woshikengkeng } from '../../dataCenter/gameData/ls.js';
-
-import { demoSS, huashao, ssdeyanlei } from '../../dataCenter/gameData/ss.js';
-import { demoCK, momo, piaopiao } from '../../dataCenter/gameData/ck.js';
-
-import { demoFS, Emmanuel } from '../../dataCenter/gameData/fs.js';
-import { demoJS, zhaizhai, woshisansan, zhonghe } from '../../dataCenter/gameData/js.js';
-
-import { demoHS, qingjiaowoyao, hongrenyaxi } from '../../dataCenter/gameData/hs.js';
-import { demoMZ, tianwuyan, yinqiangfeiwu } from '../../dataCenter/gameData/mz.js';
-
-
 // 1物理系 0法术系
 const characterList = {
   ws: 1,
