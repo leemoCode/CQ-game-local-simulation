@@ -1,24 +1,13 @@
 import { demoWS, zoubeiye } from './gameData/ws.js';
 import { demoLS, woshikengkeng } from './gameData/ls.js';
-import { demoSS } from './gameData/ss.js';
-import { demoCK } from './gameData/ck.js';
+import { demoSS, huashao } from './gameData/ss.js';
+import { demoCK, momo } from './gameData/ck.js';
 import { demoFS, Emmanuel } from './gameData/fs.js';
 import { demoJS, zhaizhai } from './gameData/js.js';
 import { demoHS, qingjiaowoyao } from './gameData/hs.js';
 import { demoMZ, tianwuyan } from './gameData/mz.js';
 
-// base value 100000
-const base = {
-  level: 70, // 5000
-  hp: 150000, // 19500
-  ack: 7000, // 19500
-  critPercent: 5, // 5000
-  critLevel: 160, // 10000
-  wDefence: 2000, // 13500
-  fDefence: 1500, // 12000
-  ackReduce: 3, // 7500
-  ackIncrease: 3, // 6000
-}
+const isConsoleEveryValue = false;
 
 const rankList = [];
 
@@ -28,17 +17,22 @@ const sort = () => {
   });
 
   console.log('----------排行榜----------');
-  for(let i = 0; i < rankList.length; i++) {
-    console.log(`${i + 1}. ${rankList[i].value}  [${rankList[i].name}]`);
+  for (let i = 0; i < rankList.length; i++) {
+    console.log(`${i + 1}. ${rankList[i].value}  ${rankList[i].character.toUpperCase()}  [${rankList[i].name}]`);
   }
 }
 
 const caculate = (targetGamerData) => {
-  console.log(`------------[${targetGamerData.name}] 战斗力数值组成-------------`);
+  if (isConsoleEveryValue) {
+    console.log(`------------[${targetGamerData.name}] 战斗力数值组成-------------`);
+  }
 
   const caculateItem = (base, coefficient, name) => {
     const value = Math.round(base * coefficient);
-    console.log(`[${name}] ${name === '暴击伤害' ? base + 150 : base} -> ${value} 点`);
+
+    if (isConsoleEveryValue) {
+      console.log(`[${name}] ${name === '暴击伤害' ? base + 150 : base} -> ${value} 点`);
+    }
     return value;
   }
 
@@ -54,25 +48,27 @@ const caculate = (targetGamerData) => {
 
   const total = levelV + hpV + ackV + critPercentV + critLevelV + wDefenceV + fDefenceV + ackReduceV + ackIncreaseV;
 
-  console.log(`玩家：[${targetGamerData.name}] 战斗力为：${total}`);
+  if (isConsoleEveryValue) {
+    console.log(`玩家：[${targetGamerData.name}] 战斗力为：${total}`);
+  }
 
-  rankList.push({name: targetGamerData.name, value: total});
+  rankList.push({ name: targetGamerData.name, value: total, character: targetGamerData.character });
 
   return total;
 }
 
 
-// caculate(demoWS);
-// caculate(demoLS);
+caculate(demoWS);
+caculate(demoLS);
 
-// caculate(demoFS);
-// caculate(demoJS);
+caculate(demoFS);
+caculate(demoJS);
 
-// caculate(demoMZ);
-// caculate(demoHS);
+caculate(demoMZ);
+caculate(demoHS);
 
-// caculate(demoCK);
-// caculate(demoSS);
+caculate(demoCK);
+caculate(demoSS);
 
 caculate(zoubeiye);
 caculate(woshikengkeng);
@@ -80,6 +76,8 @@ caculate(Emmanuel);
 caculate(tianwuyan);
 caculate(zhaizhai);
 caculate(qingjiaowoyao);
+caculate(momo);
+caculate(huashao);
 
 
 sort();

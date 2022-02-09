@@ -1,7 +1,7 @@
 import { demoWS, zoubeiye } from './gameData/ws.js';
 import { demoLS, woshikengkeng } from './gameData/ls.js';
-import { demoSS } from './gameData/ss.js';
-import { demoCK } from './gameData/ck.js';
+import { demoSS, huashao } from './gameData/ss.js';
+import { demoCK, momo } from './gameData/ck.js';
 import { demoFS, Emmanuel } from './gameData/fs.js';
 import { demoJS, zhaizhai } from './gameData/js.js';
 import { demoHS, qingjiaowoyao } from './gameData/hs.js';
@@ -81,4 +81,4 @@ const pk = (data1, data2) => {
   );
 };
 
-pk(Emmanuel, qingjiaowoyao);
+pk(huashao, Emmanuel);

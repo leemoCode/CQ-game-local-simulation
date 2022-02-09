@@ -15,3 +15,20 @@ export const demoCK = {
   ackReduce: 0,
   ackIncrease: 8,
 };
+
+export const momo = {
+  name: '默默',
+  character: 'ck',
+  level: 70,
+  hp: 377800,
+  mp: 12450,
+  ack: 26800,
+  critPercent: 45,
+  critLevel: 330,
+
+  wDefence: 4700,
+  fDefence: 3800,
+
+  ackReduce: 7,
+  ackIncrease: 40,
+};
