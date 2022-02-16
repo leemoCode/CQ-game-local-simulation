@@ -1,21 +1,22 @@
 <template>
-  {{ msg }}
+  {{ a }}
+  {{ b }}
 </template>
 
 <script lang="ts">
 import { defineComponent, ref, computed } from 'vue';
-// import { curPage } from './dataCenter/globalState';
-// import HelloWorld from './components/HelloWorld.vue';
 
 export default defineComponent({
   name: 'Template',
-  components: {
-    // HelloWorld,
-  },
   setup() {
-    const msg = 'Component: Template';
+    const a = ref(0);
+
+    const b = computed(() => {
+      return a.value ++;
+    })
     return {
-      msg,
+      a,
+      b,
     };
   },
 });
