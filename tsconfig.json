@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/controller/game/index.js"  ],
   "exclude": [
     "node_modules"
   ],
