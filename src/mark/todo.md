@@ -3,14 +3,10 @@ https://vue3js.cn/interview/vue/show_if.html#%E4%BA%8C%E3%80%81v-show%E4%B8%8Ev-
 
 # 0215
 工作待办：
-OJT PPT 优化
-OJT 讲解练习
 
 调研下 navigator.connection  type = none 却能上网的情况
 
 表态埋点曝光异常
-
-表态后 不滑动不出图片的问题
 
 评论发gif图 图片尺寸 引用回复中的形态适配
 
@@ -20,6 +16,8 @@ OJT 讲解练习
 comment-common-view ts检查
 topic-common-view ts检查
 
+
+表态后 不滑动不出图片的问题
 
 技术需求合入 吴毅3 李函朔2
 
@@ -60,6 +58,10 @@ commentsdk demo工程 模板
 
 
 # 回收站
+OJT PPT 优化
+OJT 讲解练习
+
+2022年2月17日10:13:17
 
 功能发布： 话题卡片文案修改 表态埋点 百分比计算 轮播表情更新
 
