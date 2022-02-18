@@ -4,22 +4,21 @@ https://vue3js.cn/interview/vue/show_if.html#%E4%BA%8C%E3%80%81v-show%E4%B8%8Ev-
 # 0215
 工作待办：
 
+消息中心 架构设计
+
 调研下 navigator.connection  type = none 却能上网的情况
 
-表态埋点曝光异常
 
 评论发gif图 图片尺寸 引用回复中的形态适配
 
 功能发布： biz-platform 针对公告位发版
-浏览器信息流 禁评公告位bug
 
 comment-common-view ts检查
 topic-common-view ts检查
 
-
 表态后 不滑动不出图片的问题
 
-技术需求合入 吴毅3 李函朔2
+技术需求合入 吴毅3 李函朔1
 
 
 个人待办：
@@ -58,6 +57,13 @@ commentsdk demo工程 模板
 
 
 # 回收站
+
+表态埋点曝光异常
+
+浏览器信息流 禁评公告位bug
+
+2022年2月17日15:20:19
+
 OJT PPT 优化
 OJT 讲解练习
 
