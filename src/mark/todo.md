@@ -16,6 +16,7 @@ https://vue3js.cn/interview/vue/show_if.html#%E4%BA%8C%E3%80%81v-show%E4%B8%8Ev-
 comment-common-view ts检查
 topic-common-view ts检查
 
+表态后表情依然在动
 表态后 不滑动不出图片的问题
 
 技术需求合入 吴毅3 李函朔1
