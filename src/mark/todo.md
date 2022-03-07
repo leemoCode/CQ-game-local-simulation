@@ -1,22 +1,24 @@
 https://vue3js.cn/interview/vue/show_if.html#%E4%BA%8C%E3%80%81v-show%E4%B8%8Ev-if%E7%9A%84%E5%8C%BA%E5%88%AB
 # 2022
 
-# 0215
+# 0307
 工作待办：
 
-消息中心 架构设计
 
-调研下 navigator.connection  type = none 却能上网的情况
+消息 跳 评论SDK 加opensource
 
-
-评论发gif图 图片尺寸 引用回复中的形态适配
+跟帖链接图片 需要兜底
 
 功能发布： biz-platform 针对公告位发版
+
+
+池子：
+
+调研下 navigator.connection  type = none 却能上网的情况
 
 comment-common-view ts检查
 topic-common-view ts检查
 
-表态后表情依然在动
 表态后 不滑动不出图片的问题
 
 技术需求合入 吴毅3 李函朔1
@@ -32,13 +34,6 @@ topic-common-view ts检查
 3. wv.isMethodValid能力封装
 5. 页面跳转时携带参数全部收拢至transparam内
 6. 跟帖命名（post、follow）统一
-
-前端涉及到的埋点改动：
-1. 20211002埋点，只保留topicList内的topicSource字段，多余的删除。
-2. 在话题入口页、话题列表页，topicList字段报所有话题的信息；在话题详情页、跟贴详情页，topicList字段只报当前话题的信息。
-3. 20211002埋点重写，逻辑变更为曝光。删除原来的接口返回成功埋点。
-4. 话题入口页的所有埋点需要额外携带openSource字段：文章页进入 article 全部评论页进入 comment 短视频进入 shortV 小视频进入 smallV。
-5. 跳转到话题列表页时携带的openSource值改为： 文章页进入 article 全部评论页进入 comment 短视频进入 shortV 小视频进入 smallV。
 
 
 # 遗留优化项：
@@ -58,6 +53,35 @@ commentsdk demo工程 模板
 
 
 # 回收站
+
+前端涉及到的埋点改动：
+1. 20211002埋点，只保留topicList内的topicSource字段，多余的删除。
+2. 在话题入口页、话题列表页，topicList字段报所有话题的信息；在话题详情页、跟贴详情页，topicList字段只报当前话题的信息。
+3. 20211002埋点重写，逻辑变更为曝光。删除原来的接口返回成功埋点。
+4. 话题入口页的所有埋点需要额外携带openSource字段：文章页进入 article 全部评论页进入 comment 短视频进入 shortV 小视频进入 smallV。
+5. 跳转到话题列表页时携带的openSource值改为： 文章页进入 article 全部评论页进入 comment 短视频进入 shortV 小视频进入 smallV。
+
+
+
+完善消息中心 架构设计
+
+评论引用回复 合入
+评论支持gif发布 合入
+表态后表情依然在动问题修正 合入
+表态曝光埋点异常 合入
+
+锁屏dev/1.4合入
+
+发布话题跟帖打标
+topic-common-view dev/1.4
+
+吴毅merge合入
+https://prod-console.cloud.oppoer.me/ocode/cpc/biz-platform-fe/comment-common-view/merge_request/512560?uniqCodeKey=all&paasZoneCode=all&azCode=all&k8sClusterCode=all&cloudLayout=serviceTree
+styleType 添加注释
+
+评论发gif图 图片尺寸 引用回复中的形态适配
+
+2022年2月23日10:36:04
 
 表态埋点曝光异常
 
