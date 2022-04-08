@@ -36,18 +36,18 @@ export default {
   piaopiao: {
     name: '漂漂',
     character: 'ck',
-    level: 70,
-    hp: 462780,
-    mp: 17655,
-    ack: 45733,
-    critPercent: 45,
-    critLevel: 350,
+    level: 80,
+    hp: 667721,
+    mp: 22695,
+    ack: 59669,
+    critPercent: 50,
+    critLevel: 400,
 
-    wDefence: 5500,
-    fDefence: 5000,
+    wDefence: 6200,
+    fDefence: 5800,
 
-    ackReduce: 12,
-    ackIncrease: 48,
+    ackReduce: 15,
+    ackIncrease: 51,
   },
 }
 // ck

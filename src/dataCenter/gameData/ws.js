@@ -20,17 +20,17 @@ export default {
     name: '邹北业',
     character: 'ws',
     level: 70,
-    hp: 489200,
+    hp: 776990,
     mp: 15000,
-    ack: 31600,
-    critPercent: 30,
-    critLevel: 285,
+    ack: 55680,
+    critPercent: 32,
+    critLevel: 300,
 
-    wDefence: 7200,
-    fDefence: 6100,
+    wDefence: 9000,
+    fDefence: 7000,
 
-    ackReduce: 20,
-    ackIncrease: 27,
+    ackReduce: 22,
+    ackIncrease: 30,
   },
 
   duoduo: {

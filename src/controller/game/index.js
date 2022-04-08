@@ -15,6 +15,7 @@ const allGamersList = [
   WS.duoduo,
   LS.woshikengkeng,
   FS.Emmanuel,
+  FS.dengxian,
   JS.zhaizhai,
   JS.zhonghe,
   JS.woshisansan,
@@ -28,8 +29,8 @@ const allGamersList = [
   MZ.yinqiangfeiwu,
 ]
 
-caculateAll(allGamersList);
+// caculateAll(allGamersList);
 
-// pk(HS.hongrenyaxi, JS.zhonghe);
+pk(JS.zhonghe, FS.dengxian);
 
 

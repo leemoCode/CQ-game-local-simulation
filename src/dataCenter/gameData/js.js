@@ -36,18 +36,18 @@ export default {
   zhonghe: {
     name: '中和',
     character: 'js',
-    level: 70,
-    hp: 453000,
-    mp: 40000,
-    ack: 73268,
-    critPercent: 8,
-    critLevel: 180,
+    level: 80,
+    hp: 612984,
+    mp: 51000,
+    ack: 92400,
+    critPercent: 40,
+    critLevel: 230,
 
-    wDefence: 6000,
-    fDefence: 7700,
+    wDefence: 7200,
+    fDefence: 8200,
 
-    ackReduce: 30,
-    ackIncrease: 45,
+    ackReduce: 50,
+    ackIncrease: 77,
   },
 
   woshisansan: {

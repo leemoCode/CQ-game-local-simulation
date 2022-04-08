@@ -1,7 +1,7 @@
 https://vue3js.cn/interview/vue/show_if.html#%E4%BA%8C%E3%80%81v-show%E4%B8%8Ev-if%E7%9A%84%E5%8C%BA%E5%88%AB
 # 2022
 
-# 0307
+# 0321
 工作待办：
 
 
@@ -10,6 +10,8 @@ https://vue3js.cn/interview/vue/show_if.html#%E4%BA%8C%E3%80%81v-show%E4%B8%8Ev-
 跟帖链接图片 需要兜底
 
 功能发布： biz-platform 针对公告位发版
+
+跳转方法拼接参数需要单独提成方法 不能手动拼
 
 
 池子：
@@ -53,6 +55,8 @@ commentsdk demo工程 模板
 
 
 # 回收站
+
+2022年3月7日14:54:57
 
 前端涉及到的埋点改动：
 1. 20211002埋点，只保留topicList内的topicSource字段，多余的删除。

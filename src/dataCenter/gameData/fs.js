@@ -31,5 +31,22 @@ export default {
 
     ackReduce: 10,
     ackIncrease: 27,
+  },
+
+  dengxian: {
+    name: '登仙',
+    character: 'fs',
+    level: 70,
+    hp: 545882,
+    mp: 33620,
+    ack: 91720,
+    critPercent: 65,
+    critLevel: 350,
+
+    wDefence: 3500,
+    fDefence: 6000,
+
+    ackReduce: 20,
+    ackIncrease: 40,
   }
 }
