@@ -14,13 +14,16 @@ const allGamersList = [
   WS.zoubeiye,
   WS.duoduo,
   LS.woshikengkeng,
+  LS.jinshen,
   FS.Emmanuel,
   FS.dengxian,
   JS.zhaizhai,
   JS.zhonghe,
   JS.woshisansan,
+  JS.treasure,
   SS.huashao,
   SS.ssdeyanlei,
+  SS.jingyu,
   CK.momo,
   CK.piaopiao,
   HS.qingjiaowoyao,
@@ -29,8 +32,17 @@ const allGamersList = [
   MZ.yinqiangfeiwu,
 ]
 
-// caculateAll(allGamersList);
+caculateAll(allGamersList);
+const A = HS.hongrenyaxi;
+const B = LS.jinshen;
+const D = MZ.tianwuyan;
+const E = WS.duoduo;
+const zoubeiye = WS.zoubeiye;
+const zhonghe = JS.zhonghe;
+const jingyu = SS.jingyu;
+const jinshen = LS.jinshen;
+const dengxian = FS.dengxian;
 
-pk(JS.zhonghe, FS.dengxian);
+pk(dengxian, jingyu);
 
 

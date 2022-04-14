@@ -49,4 +49,21 @@ export default {
     ackReduce: 12,
     ackIncrease: 30,
   },
+
+  jingyu: {
+    name: '惊羽',
+    character: 'ss',
+    level: 80,
+    hp: 436990,
+    mp: 17750,
+    ack: 124680,
+    critPercent: 20,
+    critLevel: 200,
+
+    wDefence: 6500,
+    fDefence: 19000,
+
+    ackReduce: 20,
+    ackIncrease: 75,
+  }
 }

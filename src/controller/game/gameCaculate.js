@@ -27,15 +27,15 @@ export const caculateTargetGamer = (targetGamerData) => {
     return value;
   }
 
-  const levelV = caculateItem(targetGamerData.level, 5000 / 70, '等级');
-  const hpV = caculateItem(targetGamerData.hp, 20000 / 150000, '生命');
-  const ackV = caculateItem(targetGamerData.ack, 20000 / 7000, '攻击');
-  const critPercentV = caculateItem(targetGamerData.critPercent, 5000 / 5, '暴击');
-  const critLevelV = caculateItem(targetGamerData.critLevel - 150, 500, '暴击伤害');
-  const wDefenceV = caculateItem(targetGamerData.wDefence, 14000 / 2000, '物理防御');
-  const fDefenceV = caculateItem(targetGamerData.fDefence, 12500 / 1500, '法术防御');
-  const ackReduceV = caculateItem(targetGamerData.ackReduce, 7500 / 3, '最终伤害减少');
-  const ackIncreaseV = caculateItem(targetGamerData.ackIncrease, 6000 / 3, '最终伤害增强');
+  const levelV = caculateItem(targetGamerData.level, 72, '等级');
+  const hpV = caculateItem(targetGamerData.hp, 19000 / 150000, '生命');
+  const ackV = caculateItem(targetGamerData.ack, 2.57, '攻击');
+  const critPercentV = caculateItem(targetGamerData.critPercent, 1800, '暴击');
+  const critLevelV = caculateItem(targetGamerData.critLevel - 150, 800, '暴击伤害');
+  const wDefenceV = caculateItem(targetGamerData.wDefence, 3.5, '物理防御');
+  const fDefenceV = caculateItem(targetGamerData.fDefence, 5.7, '法术防御');
+  const ackReduceV = caculateItem(targetGamerData.ackReduce, 3000, '最终伤害减少');
+  const ackIncreaseV = caculateItem(targetGamerData.ackIncrease, 2500, '最终伤害增强');
 
   const total = levelV + hpV + ackV + critPercentV + critLevelV + wDefenceV + fDefenceV + ackReduceV + ackIncreaseV;
 

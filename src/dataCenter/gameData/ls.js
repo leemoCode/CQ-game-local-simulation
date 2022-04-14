@@ -16,6 +16,23 @@ export default {
     ackIncrease: 0,
   },
 
+  jinshen: {
+    name: '金身',
+    character: 'ls',
+    level: 80,
+    hp: 1029755,
+    mp: 33200,
+    ack: 40166,
+    critPercent: 22,
+    critLevel: 340,
+
+    wDefence: 21766,
+    fDefence: 18662,
+
+    ackReduce: 55,
+    ackIncrease: 20,
+  },
+
   woshikengkeng: {
     name: '我是坑坑',
     character: 'ls',

@@ -37,17 +37,34 @@ export default {
     name: '中和',
     character: 'js',
     level: 80,
-    hp: 612984,
-    mp: 51000,
-    ack: 92400,
+    hp: 642984,
+    mp: 55000,
+    ack: 102400,
     critPercent: 40,
-    critLevel: 230,
+    critLevel: 280,
 
-    wDefence: 7200,
-    fDefence: 8200,
+    wDefence: 6500,
+    fDefence: 7000,
 
-    ackReduce: 50,
-    ackIncrease: 77,
+    ackReduce: 51,
+    ackIncrease: 83,
+  },
+
+  treasure: {
+    name: 'Treasure',
+    character: 'js',
+    level: 80,
+    hp: 676979,
+    mp: 107500,
+    ack: 44226,
+    critPercent: 25,
+    critLevel: 260,
+
+    wDefence: 14500,
+    fDefence: 16670,
+
+    ackReduce: 35,
+    ackIncrease: 35,
   },
 
   woshisansan: {
