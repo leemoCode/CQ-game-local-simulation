@@ -20,17 +20,17 @@ export default {
     name: '宅宅',
     character: 'js',
     level: 70,
-    hp: 526400,
-    mp: 45000,
-    ack: 33978,
-    critPercent: 21,
-    critLevel: 165,
+    hp: 858565,
+    mp: 194500,
+    ack: 112732,
+    critPercent: 0,
+    critLevel: 160,
 
-    wDefence: 9600,
-    fDefence: 10200,
+    wDefence: 27000,
+    fDefence: 33400,
 
-    ackReduce: 20,
-    ackIncrease: 15,
+    ackReduce: 65,
+    ackIncrease: 0,
   },
 
   zhonghe: {

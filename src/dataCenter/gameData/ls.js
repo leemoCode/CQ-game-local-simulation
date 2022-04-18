@@ -33,6 +33,23 @@ export default {
     ackIncrease: 20,
   },
 
+  luweilou: {
+    name: '陆危楼',
+    character: 'ls',
+    level: 80,
+    hp: 1339986,
+    mp: 6500,
+    ack: 25680,
+    critPercent: 5,
+    critLevel: 150,
+
+    wDefence: 40960,
+    fDefence: 37786,
+
+    ackReduce: 85,
+    ackIncrease: 0,
+  },
+
   woshikengkeng: {
     name: '我是坑坑',
     character: 'ls',

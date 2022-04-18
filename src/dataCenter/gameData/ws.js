@@ -33,6 +33,23 @@ export default {
     ackIncrease: 30,
   },
 
+  wangchou: {
+    name: '忘仇',
+    character: 'ws',
+    level: 80,
+    hp: 887090,
+    mp: 22000,
+    ack: 86680,
+    critPercent: 30,
+    critLevel: 350,
+
+    wDefence: 18000,
+    fDefence: 12000,
+
+    ackReduce: 30,
+    ackIncrease: 45,
+  },
+
   duoduo: {
     name: '朵朵',
     character: 'ws',

@@ -13,8 +13,10 @@ import { pk } from './gamePK.js';
 const allGamersList = [
   WS.zoubeiye,
   WS.duoduo,
+  WS.wangchou,
   LS.woshikengkeng,
   LS.jinshen,
+  LS.luweilou,
   FS.Emmanuel,
   FS.dengxian,
   JS.zhaizhai,
@@ -38,11 +40,16 @@ const B = LS.jinshen;
 const D = MZ.tianwuyan;
 const E = WS.duoduo;
 const zoubeiye = WS.zoubeiye;
+const wangchou = WS.wangchou;
 const zhonghe = JS.zhonghe;
 const jingyu = SS.jingyu;
 const jinshen = LS.jinshen;
 const dengxian = FS.dengxian;
+const zhaizhai = JS.zhaizhai;
 
-pk(dengxian, jingyu);
+const luweilou = LS.luweilou;
+
+pk(luweilou, zoubeiye);
+
 
 

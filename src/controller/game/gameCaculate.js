@@ -28,7 +28,7 @@ export const caculateTargetGamer = (targetGamerData) => {
   }
 
   const levelV = caculateItem(targetGamerData.level, 72, '等级');
-  const hpV = caculateItem(targetGamerData.hp, 19000 / 150000, '生命');
+  const hpV = caculateItem(targetGamerData.hp, 2000 / 10000, '生命');
   const ackV = caculateItem(targetGamerData.ack, 2.57, '攻击');
   const critPercentV = caculateItem(targetGamerData.critPercent, 1800, '暴击');
   const critLevelV = caculateItem(targetGamerData.critLevel - 150, 800, '暴击伤害');
