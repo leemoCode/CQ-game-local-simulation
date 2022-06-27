@@ -49,7 +49,7 @@ const zhaizhai = JS.zhaizhai;
 
 const luweilou = LS.luweilou;
 
-pk(luweilou, zoubeiye);
+pk(wangchou, CK.piaopiao);
 
 
 
