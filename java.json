@@ -1,0 +1,457 @@
+{
+  "code": 0,
+  "msg": "Request ok",
+  "bucketIds": "",
+  "messageType": [],
+  "cards": [
+    {
+      "cardInfo": {
+        "title": "搜索结果",
+        "name": "",
+        "status": "0",
+        "showStatus": "0",
+        "showStyle": "0",
+        "cardPic": "",
+        "cardDarkPic": "",
+        "hotValue": "0",
+        "cardType": "",
+        "adType": [],
+        "sids": []
+      },
+      "dataInfo": {
+        "cardId": "170004",
+        "categoryType": "0",
+        "cpId": "10003"
+      },
+      "cardContent": [],
+      "picUrl": [],
+      "jumpAction": [],
+      "tab": [
+        {
+          "tabName": "",
+          "tabItem": [
+            {
+              "resourceId": "2222071",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "王者荣耀",
+                "36.6 亿次安装",
+                "",
+                "",
+                "2.63532",
+                "全球首款5V5公平对战手游"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202004/05/890d5e9962eec58d61fffa66e4948039.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 1,
+                  "url": "",
+                  "pkg": "",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                },
+                {
+                  "mode": 2,
+                  "url": "",
+                  "pkg": "com.tencent.tmgp.sgame",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "position": 0,
+              "trackId": "d6a664c9c3ebe850848a2b074afb58f5",
+              "trackContent": "eyJ0cmFja0lkIjoiZDZhNjY0YzljM2ViZTg1MDg0OGEyYjA3NGFmYjU4ZjUiLCJkZXZpY2VJZCI6IjkwQjRGQzdBREJGQjRBMkU4NDNDOUI3QzcyMzIxQzQzRUM3RDQyNDk3OUNDOUM1MTAyMDFEMDE2RjlCOTY4QTgiLCJhcHBJZCI6IjIyMjIwNzEiLCJ2ZXJzaW9uSWQiOiIzMSIsImVudGVySWQiOiJjb20udGVuY2VudC50bWdwLnNnYW1lIiwicGFnZUlkIjoiU2VhcmNoR2FtZXNQYWdlX3NlYXJjaHJlc3VsdF9nYW1lIiwidCI6IjE2NTk1MTc3Nzg0MzAiLCJ2IjoidjEiLCJleHQiOiIifQ\u003d\u003d",
+              "dynamicToken": "NmUwZjg4Njg2ZWQ4NmU1NSMxNjU5NTE3Nzc4NDMwIzM0NCNjb20udGVuY2VudC50bWdwLnNnYW1lI0tvYmUvMjRAYWQzZjBlYzA5MjI0MzEyNWRiODU3NzdiMDVjYzJiMTg\u003d",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            }
+          ],
+          "tabContent": [],
+          "style": 0,
+          "more": "",
+          "tabId": 0,
+          "content": [],
+          "moreJumpAction": [],
+          "intervenePos": []
+        }
+      ],
+      "cardStyle": 0,
+      "cardId": 0
+    },
+    {
+      "cardInfo": {
+        "title": "游戏推荐",
+        "name": "",
+        "status": "0",
+        "showStatus": "0",
+        "showStyle": "0",
+        "cardPic": "",
+        "cardDarkPic": "",
+        "hotValue": "0",
+        "cardType": "",
+        "adType": [],
+        "sids": []
+      },
+      "dataInfo": {
+        "cardId": "170005",
+        "categoryType": "0",
+        "cpId": "10003"
+      },
+      "cardContent": [],
+      "picUrl": [],
+      "jumpAction": [],
+      "tab": [
+        {
+          "tabName": "",
+          "tabItem": [
+            {
+              "resourceId": "30750259",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "机甲荣耀王者",
+                "7114 次安装",
+                "",
+                "",
+                "3.0",
+                "一款酷炫机甲变形对战推塔游"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202202/17/da98347ef160c2b12e206587e190913b.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 1,
+                  "url": "",
+                  "pkg": "",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                },
+                {
+                  "mode": 2,
+                  "url": "",
+                  "pkg": "com.martian.jjrywz.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "position": 0,
+              "trackId": "bcc4e8b35fc826c98cf4db4d3ace7a1a",
+              "trackContent": "eyJ0cmFja0lkIjoiYmNjNGU4YjM1ZmM4MjZjOThjZjRkYjRkM2FjZTdhMWEiLCJkZXZpY2VJZCI6IjkwQjRGQzdBREJGQjRBMkU4NDNDOUI3QzcyMzIxQzQzRUM3RDQyNDk3OUNDOUM1MTAyMDFEMDE2RjlCOTY4QTgiLCJhcHBJZCI6IjMwNzUwMjU5IiwidmVyc2lvbklkIjoiMzEiLCJlbnRlcklkIjoiY29tLm1hcnRpYW4uampyeXd6Lm5lYXJtZS5nYW1lY2VudGVyIiwicGFnZUlkIjoiU2VhcmNoR2FtZXNQYWdlX3NlYXJjaHJlc3VsdF9nYW1lX3JlY29tbWVuZCIsInQiOiIxNjU5NTE3Nzc4NDMwIiwidiI6InYxIiwiZXh0IjoiIn0\u003d",
+              "dynamicToken": "NmUwZjg4Njg2ZWQ4NmU1NSMxNjU5NTE3Nzc4NDMwIzM0NCNjb20ubWFydGlhbi5qanJ5d3oubmVhcm1lLmdhbWVjZW50ZXIjS29iZS8yNEAzMWMwMWJjZjUwZGI0ZjBiNTMzMzc4Y2UzNzNkZGQ5YQ\u003d\u003d",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30839627",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "斧头帮荣耀王者",
+                "1068 次安装",
+                "",
+                "",
+                "4.5",
+                "斧头帮荣耀王者是大逃杀手游"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202207/06/0761afa84cdb535201c235e56f66cca4.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 1,
+                  "url": "",
+                  "pkg": "",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                },
+                {
+                  "mode": 2,
+                  "url": "",
+                  "pkg": "com.rywzht.xthdb.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "position": 0,
+              "trackId": "30f94ae29dc96490c6e68809a0cdfb40",
+              "trackContent": "eyJ0cmFja0lkIjoiMzBmOTRhZTI5ZGM5NjQ5MGM2ZTY4ODA5YTBjZGZiNDAiLCJkZXZpY2VJZCI6IjkwQjRGQzdBREJGQjRBMkU4NDNDOUI3QzcyMzIxQzQzRUM3RDQyNDk3OUNDOUM1MTAyMDFEMDE2RjlCOTY4QTgiLCJhcHBJZCI6IjMwODM5NjI3IiwidmVyc2lvbklkIjoiMzEiLCJlbnRlcklkIjoiY29tLnJ5d3podC54dGhkYi5uZWFybWUuZ2FtZWNlbnRlciIsInBhZ2VJZCI6IlNlYXJjaEdhbWVzUGFnZV9zZWFyY2hyZXN1bHRfZ2FtZV9yZWNvbW1lbmQiLCJ0IjoiMTY1OTUxNzc3ODQzMSIsInYiOiJ2MSIsImV4dCI6IiJ9",
+              "dynamicToken": "NmUwZjg4Njg2ZWQ4NmU1NSMxNjU5NTE3Nzc4NDMxIzM0NCNjb20ucnl3emh0Lnh0aGRiLm5lYXJtZS5nYW1lY2VudGVyI0tvYmUvMjRAZWJlYzk0M2I2ZmUzYTZjZmQ4ZjAxMjA3ZmMyYWYwN2I\u003d",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3610816",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "和平精英（科学之轮）",
+                "18.2 亿次安装",
+                "",
+                "",
+                "2.97478",
+                "腾讯正版战术竞技手游"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202206/29/7c899971dbe2b81b1ed64c9f0a1fd8e6.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 1,
+                  "url": "",
+                  "pkg": "",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                },
+                {
+                  "mode": 2,
+                  "url": "",
+                  "pkg": "com.tencent.tmgp.pubgmhd",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "position": 0,
+              "trackId": "567cc7c918a468a8dfffc730d9ebf71b",
+              "trackContent": "eyJ0cmFja0lkIjoiNTY3Y2M3YzkxOGE0NjhhOGRmZmZjNzMwZDllYmY3MWIiLCJkZXZpY2VJZCI6IjkwQjRGQzdBREJGQjRBMkU4NDNDOUI3QzcyMzIxQzQzRUM3RDQyNDk3OUNDOUM1MTAyMDFEMDE2RjlCOTY4QTgiLCJhcHBJZCI6IjM2MTA4MTYiLCJ2ZXJzaW9uSWQiOiIzMSIsImVudGVySWQiOiJjb20udGVuY2VudC50bWdwLnB1YmdtaGQiLCJwYWdlSWQiOiJTZWFyY2hHYW1lc1BhZ2Vfc2VhcmNocmVzdWx0X2dhbWVfcmVjb21tZW5kIiwidCI6IjE2NTk1MTc3Nzg0MzEiLCJ2IjoidjEiLCJleHQiOiIifQ\u003d\u003d",
+              "dynamicToken": "NmUwZjg4Njg2ZWQ4NmU1NSMxNjU5NTE3Nzc4NDMxIzM0NCNjb20udGVuY2VudC50bWdwLnB1YmdtaGQjS29iZS8yNEBjYTBlZmVkN2M4ZjIyY2I2MTFmYTYwODFlM2VmODBmZQ\u003d\u003d",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30798981",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "寒刀（3D超变传奇）",
+                "53.6 万次安装",
+                "",
+                "",
+                "4.69838",
+                "登录送专属称号"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202206/14/92751cda50e7d9a2f35139cc3d95f71e.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 1,
+                  "url": "",
+                  "pkg": "",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                },
+                {
+                  "mode": 2,
+                  "url": "",
+                  "pkg": "com.jsqq.handao.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "position": 0,
+              "trackId": "da599ca45a297367864f4049d17bcd7f",
+              "trackContent": "eyJ0cmFja0lkIjoiZGE1OTljYTQ1YTI5NzM2Nzg2NGY0MDQ5ZDE3YmNkN2YiLCJkZXZpY2VJZCI6IjkwQjRGQzdBREJGQjRBMkU4NDNDOUI3QzcyMzIxQzQzRUM3RDQyNDk3OUNDOUM1MTAyMDFEMDE2RjlCOTY4QTgiLCJhcHBJZCI6IjMwNzk4OTgxIiwidmVyc2lvbklkIjoiMzEiLCJlbnRlcklkIjoiY29tLmpzcXEuaGFuZGFvLm5lYXJtZS5nYW1lY2VudGVyIiwicGFnZUlkIjoiU2VhcmNoR2FtZXNQYWdlX3NlYXJjaHJlc3VsdF9nYW1lX3JlY29tbWVuZCIsInQiOiIxNjU5NTE3Nzc4NDMxIiwidiI6InYxIiwiZXh0IjoiIn0\u003d",
+              "dynamicToken": "NmUwZjg4Njg2ZWQ4NmU1NSMxNjU5NTE3Nzc4NDMxIzM0NCNjb20uanNxcS5oYW5kYW8ubmVhcm1lLmdhbWVjZW50ZXIjS29iZS8yNEBmZDQwOTJlYjYwNDY2NDIzYjlhZjQxMDVlNmMzYTlhNA\u003d\u003d",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3656348",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "逃跑吧！少年（周年庆典）",
+                "2.1 亿次安装",
+                "",
+                "",
+                "3.96153",
+                "正版授权大黄蜂出击"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202207/30/ba1815db88504a295e3add2fc27cdbf0.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 1,
+                  "url": "",
+                  "pkg": "",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                },
+                {
+                  "mode": 2,
+                  "url": "",
+                  "pkg": "com.bairimeng.dmmdzz.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "position": 0,
+              "trackId": "84d2fbdec6c30540da927c4bc3028c43",
+              "trackContent": "eyJ0cmFja0lkIjoiODRkMmZiZGVjNmMzMDU0MGRhOTI3YzRiYzMwMjhjNDMiLCJkZXZpY2VJZCI6IjkwQjRGQzdBREJGQjRBMkU4NDNDOUI3QzcyMzIxQzQzRUM3RDQyNDk3OUNDOUM1MTAyMDFEMDE2RjlCOTY4QTgiLCJhcHBJZCI6IjM2NTYzNDgiLCJ2ZXJzaW9uSWQiOiIzMSIsImVudGVySWQiOiJjb20uYmFpcmltZW5nLmRtbWR6ei5uZWFybWUuZ2FtZWNlbnRlciIsInBhZ2VJZCI6IlNlYXJjaEdhbWVzUGFnZV9zZWFyY2hyZXN1bHRfZ2FtZV9yZWNvbW1lbmQiLCJ0IjoiMTY1OTUxNzc3ODQzMSIsInYiOiJ2MSIsImV4dCI6IiJ9",
+              "dynamicToken": "NmUwZjg4Njg2ZWQ4NmU1NSMxNjU5NTE3Nzc4NDMxIzM0NCNjb20uYmFpcmltZW5nLmRtbWR6ei5uZWFybWUuZ2FtZWNlbnRlciNLb2JlLzI0QGEyNWI3M2IxMGI4ZTczZDdlOTFkZjVjZjYyN2E3NzEz",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30847951",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "海盗传奇（删档测试）",
+                "820 次安装",
+                "",
+                "",
+                "5.0",
+                "超爆送真充生肖镇魂新玩法"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202207/25/8d72835ebc24a913ccf8d48dde70eb7b.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 1,
+                  "url": "",
+                  "pkg": "",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                },
+                {
+                  "mode": 2,
+                  "url": "",
+                  "pkg": "com.fr.hdcq.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "position": 0,
+              "trackId": "f7556ee2647d884ee3ab76268250ff5e",
+              "trackContent": "eyJ0cmFja0lkIjoiZjc1NTZlZTI2NDdkODg0ZWUzYWI3NjI2ODI1MGZmNWUiLCJkZXZpY2VJZCI6IjkwQjRGQzdBREJGQjRBMkU4NDNDOUI3QzcyMzIxQzQzRUM3RDQyNDk3OUNDOUM1MTAyMDFEMDE2RjlCOTY4QTgiLCJhcHBJZCI6IjMwODQ3OTUxIiwidmVyc2lvbklkIjoiMzEiLCJlbnRlcklkIjoiY29tLmZyLmhkY3EubmVhcm1lLmdhbWVjZW50ZXIiLCJwYWdlSWQiOiJTZWFyY2hHYW1lc1BhZ2Vfc2VhcmNocmVzdWx0X2dhbWVfcmVjb21tZW5kIiwidCI6IjE2NTk1MTc3Nzg0MzEiLCJ2IjoidjEiLCJleHQiOiIifQ\u003d\u003d",
+              "dynamicToken": "NmUwZjg4Njg2ZWQ4NmU1NSMxNjU5NTE3Nzc4NDMxIzM0NCNjb20uZnIuaGRjcS5uZWFybWUuZ2FtZWNlbnRlciNLb2JlLzI0QGM2MTU4ZjdiNmI0MTRmOTY4ZmM1NWUyNDg3Y2YzZDcw",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            }
+          ],
+          "tabContent": [],
+          "style": 0,
+          "more": "",
+          "tabId": 0,
+          "content": [],
+          "moreJumpAction": [],
+          "intervenePos": []
+        }
+      ],
+      "cardStyle": 0,
+      "cardId": 0
+    }
+  ]
+}

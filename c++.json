@@ -1,0 +1,1203 @@
+{
+  "code": 0,
+  "msg": "Request ok",
+  "bucketIds": "",
+  "messageType": [],
+  "cards": [
+    {
+      "cardInfo": {
+        "title": "搜索结果",
+        "name": "",
+        "status": "0",
+        "showStatus": "0",
+        "showStyle": "0",
+        "cardPic": "",
+        "cardDarkPic": "",
+        "hotValue": "0",
+        "cardType": "",
+        "adType": [],
+        "sids": []
+      },
+      "dataInfo": {
+        "cardId": "170004",
+        "categoryType": "0",
+        "cpId": ""
+      },
+      "cardContent": [],
+      "picUrl": [],
+      "jumpAction": [],
+      "tab": [
+        {
+          "tabName": "",
+          "tabItem": [
+            {
+              "resourceId": "2222071",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "王者荣耀",
+                "36.4 亿次安装",
+                "1.84 GB",
+                "",
+                "2.65496",
+                "全球首款5V5公平对战手游"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202004/05/890d5e9962eec58d61fffa66e4948039.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.tmgp.sgame",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3562522",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "王者传奇（重温燃情岁月）",
+                "1431 万次安装",
+                "102 MB",
+                "",
+                "3.75713",
+                "见证万服同载传奇盛世"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_f1a045bda324b5bae03f9b0b1fb1048a_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.shenghe.wzcq.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30789859",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "王者之路（武侠风传奇）",
+                "42.1 万次安装",
+                "269 MB",
+                "",
+                "4.34066",
+                "武侠玄幻风传奇类手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_c316a10fa04bdb8d4d4cd9eed5076c12_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.twwzzl.net.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3667694",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "王者西游（梦幻宠物养成回合制仙）",
+                "99.3 万次安装",
+                "112 MB",
+                "",
+                "4.38095",
+                "上线送V10领炫酷时装送神"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_61a88e88a6fb029a8dc98e8ab2b7ed9d_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.quantum.wzxy.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30780389",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "王者军团（都市打金传奇）",
+                "6.7 万次安装",
+                "189 MB",
+                "",
+                "4.75862",
+                "未来传奇战神称霸元宇宙"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_ec5c4b0c62a6496c723808a665dc8dcc_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.gzyl.wzjtcz.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            }
+          ],
+          "tabContent": [],
+          "style": 0,
+          "more": "",
+          "tabId": 0,
+          "content": [],
+          "moreJumpAction": [],
+          "intervenePos": []
+        }
+      ],
+      "cardStyle": 0,
+      "cardId": 0,
+      "debugMsg": {}
+    },
+    {
+      "cardInfo": {
+        "title": "游戏推荐",
+        "name": "",
+        "status": "0",
+        "showStatus": "0",
+        "showStyle": "0",
+        "cardPic": "",
+        "cardDarkPic": "",
+        "hotValue": "0",
+        "cardType": "",
+        "adType": [],
+        "sids": []
+      },
+      "dataInfo": {
+        "cardId": "170005",
+        "categoryType": "0",
+        "cpId": ""
+      },
+      "cardContent": [],
+      "picUrl": [],
+      "jumpAction": [],
+      "tab": [
+        {
+          "tabName": "",
+          "tabItem": [
+            {
+              "resourceId": "30750259",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "机甲荣耀王者",
+                "7101 次安装",
+                "86.2 MB",
+                "",
+                "3",
+                "一款酷炫机甲变形对战推塔游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_3ff9902368ac6af862d4a1272576e28b_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.martian.jjrywz.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30839627",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "斧头帮荣耀王者",
+                "171 次安装",
+                "265 MB",
+                "",
+                "4.5",
+                "斧头帮荣耀王者是大逃杀手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_bbd1428c2acd1676b13353f3ca70a568_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.rywzht.xthdb.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3610816",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "和平精英（科学之轮）",
+                "18.2 亿次安装",
+                "1.92 GB",
+                "",
+                "2.97501",
+                "腾讯正版战术竞技手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_774f6d90e5e2f5f9906b474125066e74_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.tmgp.pubgmhd",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3656348",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "逃跑吧！少年（周年庆典）",
+                "2.1 亿次安装",
+                "820 MB",
+                "",
+                "3.96153",
+                "正版授权大黄蜂出击"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_24e417555b016481caad8c437f420fc7_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.bairimeng.dmmdzz.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3658421",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "明日之后",
+                "1.5 亿次安装",
+                "1.76 GB",
+                "",
+                "3.30983",
+                "机密海域揭秘中预约寻找真相"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_20b12b43016353d2ffd39342ce1b6de2_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.netease.mrzh.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3604622",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "第五人格",
+                "2.2 亿次安装",
+                "1.95 GB",
+                "",
+                "4.21586",
+                "网易非对称对抗手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_9aaf6e5f67e2bebc2b8018f503a47888_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.netease.dwrg.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3673449",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "FIFA足球世界",
+                "1695 万次安装",
+                "955 MB",
+                "",
+                "3.19728",
+                "世界杯官方竞技手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_757edea54d2c0bbc3134add52c2284da_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.fifamobile",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30819281",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "自由之刃（冰雪超变传奇）",
+                "37.9 万次安装",
+                "301 MB",
+                "",
+                "4.15612",
+                "主打冰雪风的正版超变传奇"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_a6db19e724373e80942dcdaf9716429d_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.twzyzrly.net.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30164174",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "三国志·战略版（送五星橙将）",
+                "2790 万次安装",
+                "1.35 GB",
+                "",
+                "3.8896",
+                "7000万战略家的真实战场"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_aa67600d53d52cf02bd4120106dbfe18_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.aligame.sgzzlb.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "2368623",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "穿越火线：枪战王者",
+                "5.5 亿次安装",
+                "1.86 GB",
+                "",
+                "3.82581",
+                "CF正版手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_2d981e305a5168809b7f351471f2f159_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.tmgp.cf",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30405149",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "紫府苍穹（仙侠情缘国民修仙）",
+                "316 万次安装",
+                "260 MB",
+                "",
+                "4.9128",
+                "仙侠情缘国民修仙手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_0929157af8c2874b7f347afc983b026e_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.julejianghu.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3696783",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "火影忍者：忍者新世代",
+                "585 万次安装",
+                "1.96 GB",
+                "",
+                "3.81193",
+                "18年全新火影羁绊策略卡牌"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_3c11661b4ba1afa66d0eb073d2de46aa_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.hyrzol",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30310385",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "妄想山海",
+                "733 万次安装",
+                "1.84 GB",
+                "",
+                "3.35925",
+                "山海经无缝开放宇宙手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_c2ae96608be9e5de93c4430e4987c0b6_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.tmgp.djsy",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30244071",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "荣耀大天使（福利拿不停）",
+                "1455 万次安装",
+                "843 MB",
+                "",
+                "4.04723",
+                "史诗级燃战冒险巨作"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_34780870d2b01fe954dd625cbf3b98c3_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.sqw.rydts.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3344298",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "火影忍者",
+                "1.3 亿次安装",
+                "1.62 GB",
+                "",
+                "2.86894",
+                "正版火影格斗手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_59c664256822ad5beb28dc512454a863_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.KiHan",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3721290",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "一刀传世（双庆礼）",
+                "2547 万次安装",
+                "51.3 MB",
+                "",
+                "3.94063",
+                "新春庆典礼伴随三周年迎大奖"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_3090c88d0c4cb233692a34cff81689db_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.sy.ydcs.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30238298",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "全民奇迹2",
+                "66.4 万次安装",
+                "1.66 GB",
+                "",
+                "3.9",
+                "UE4引擎华丽魔幻RPG"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_aaf52ed884ec09a0e2a0a9ee98af3fb7_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.tmgp.tmsk.qj3",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30441957",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "数码宝贝：新世纪",
+                "273 万次安装",
+                "1.75 GB",
+                "",
+                "3.91349",
+                "正版授权数码宝贝手游"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_deca9bcfd0cd777c3669204c039ebeb7_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.tencent.dm",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30252079",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "曙光英雄（登陆送英雄）",
+                "1132 万次安装",
+                "1.35 GB",
+                "",
+                "3.66859",
+                "5V5良心生存对战手游"
+              ],
+              "pic": [
+                "https://store.heytapimage.com/img/202011/05/f877c28f5fca0afa505f61286ec3bd8b.png"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "cn.jj.log.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3062312",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "迷你世界（迎接沙漠风暴）",
+                "20.2 亿次安装",
+                "637 MB",
+                "",
+                "3.83537",
+                "全新沙漠冒险玩法上线"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_0d1996e079a705e9fe496106da24a058_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.minitech.miniworld.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "30711225",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "奥特曼合成大徽章",
+                "3638 万次安装",
+                "114 MB",
+                "",
+                "2.25676",
+                "奥特曼竞技对抗"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_9d40aebf692f3925f96657b03ada5ec7_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.njzt.atmhcdhz.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            },
+            {
+              "resourceId": "3376389",
+              "cpId": "10003",
+              "content": [
+                "0",
+                "崩坏3（繁星绘卷）",
+                "2774 万次安装",
+                "532 MB",
+                "",
+                "4.24927",
+                "为世界上所有的美好而战"
+              ],
+              "pic": [
+                "https://imgconvert-search.nearme.com.cn/gameInfo/_9796317d0933f7eda6995bc09a669f2f_4_0.8x160x213.webp"
+              ],
+              "jumpActions": [
+                {
+                  "mode": 0,
+                  "url": "",
+                  "pkg": "com.miHoYo.bh3.nearme.gamecenter",
+                  "click_type": 0,
+                  "jumpTitle": "",
+                  "cpId": "",
+                  "exposureLink": "",
+                  "installLink": ""
+                }
+              ],
+              "style": "0",
+              "contents": [],
+              "tracks": [],
+              "downloadToken": "6e0f88686ed86e55",
+              "hot": "",
+              "source": 0,
+              "appStyle": 0,
+              "channelId": "0",
+              "channelIdStr": "",
+              "poster_url": "",
+              "mask_color": "",
+              "darkModeTag": "",
+              "lightModeTag": ""
+            }
+          ],
+          "tabContent": [],
+          "style": 0,
+          "more": "",
+          "tabId": 0,
+          "content": [],
+          "moreJumpAction": [],
+          "intervenePos": []
+        }
+      ],
+      "cardStyle": 0,
+      "cardId": 0,
+      "debugMsg": {}
+    }
+  ],
+  "mixApp": [],
+  "trainTicketFuzzy": [],
+  "airTicketFuzzy": [],
+  "movie": [],
+  "nlpPileInfo": "",
+  "rankPileInfo": "",
+  "debugMsg": {},
+  "cardsState": 0
+}

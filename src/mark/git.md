@@ -84,6 +84,14 @@ git clean -f
 yarn build -- -t 检测错误
 
 
+查看端口占用情况 -> 拿到进程号
+netstat -abon | findstr "8888"
+
+关闭某个进程
+taskkill -PID 进程号 -F
+
+关闭strict-ssl
+npm config set strict-ssl false
 
 ## oppo 发布流程
 
